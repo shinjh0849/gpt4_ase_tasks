@@ -21,7 +21,9 @@ The information includes:
 
 1 is in survey_info/task_samples.xlsx
 
-2-4 are in survey_info/Survey Responses.xlsx
+2 is in survey_info/survey_questions.pdf
+
+3-4 are in survey_info/Survey Responses.xlsx
 
 5 is in survey_info/raw chat logs
 
