@@ -4,9 +4,9 @@ This is the replication package from the submission, "Prompt Engineering or Fine
 
 In here, we include the appendix that has all the information from our qualitative study, i.e. survey.
 
-We also include the scripts we used to do our quantitative study, automated prompting to GPT-4.
+We also include the scripts and the generated results we used to conduct our quantitative study, i.e. automated prompting to GPT-4.
 
-We share the links to the benchmark datasets used in our quantitative study.
+We share the links to the benchmark datasets used in our quantitative study as well.
 
 ## 0. Online Appendix
 Here, we provide all the data from our surveys.
