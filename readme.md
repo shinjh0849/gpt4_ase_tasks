@@ -2,14 +2,26 @@
 
 This is the replication package from the submission, "Prompt Engineering or Fine Tuning: An Empirical Assessment of Large Language Models in Automated Software Engineering Tasks".
 
-In here, we 
+In here, we include the appendix that has all the information from our qualitative study, i.e. survey.
+
+We also include the scripts we used to do our quantitative study, automated prompting to GPT-4.
+
+We share the links to the benchmark datasets used in our quantitative study.
 
 ## 0. Online Appendix
 Here, we provide all the data from our surveys.
 The information includes:
 
-1. Example survey to show all the lists of questions we surveyed.
-2. The task samples the surveyors queried 
+1. The task samples (comment generation, code generation, and code translation) the surveyors queried to ChatGPT.
+2. The list of survey questions that we used as questionnaire to the participants.
+3. The raw responses to the sureveys from the participans.
+4. Prompt category the authors categorized.
+5. Raw chat logs of surveyors' queries with ChatGPT.
+
+1 is in survey_info/task_samples.xlsx
+2-4 are in survey_info/Survey Responses.xlsx
+5 is in survey_info/raw chat logs
+
 
 ## 1. Dataset
 Datasets can be easily obtained from GitHub and Hugging Face. Here are the links to each datasets:
