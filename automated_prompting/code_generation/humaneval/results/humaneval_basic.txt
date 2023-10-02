@@ -1,0 +1,164 @@
+return any(abs(numbers[i] - numbers[j]) < threshold for i in range(len(numbers)) for j in range(i+1, len(numbers)))
+return [group.replace(' ', '') for group in paren_string.split(') (') if group]
+return number - int(number)
+return any(sum(operations[:i+1]) < 0 for i in range(len(operations)))
+return sum(abs(x - sum(numbers) / len(numbers)) for x in numbers) / len(numbers)
+return [i for num in numbers for i in (num, delimeter)][:-1]
+return [max(paren_string[i:i+paren_string[i:].index(' ')+1].count('(') for i in range(len(paren_string)) if paren_string[i] == '(') if ' ' in paren_string else paren_string.count('(')]
+return [s for s in strings if substring in s]
+return sum(numbers) if numbers else 0, eval('*'.join(map(str, numbers))) if numbers else 1
+return [max(numbers[:i+1]) for i in range(len(numbers))]
+return string + string[-2::-1] if string == string[::-1] else string + string[-2::-1] + string[-1]
+return ''.join('1' if i != j else '0' for i, j in zip(a, b))
+return max(strings, key=len, default=None) if strings else None
+while b != 0: a, b = b, a % b; return a
+return [string[:i+1] for i in range(len(string))]
+return ' '.join(str(i) for i in range(n+1))
+return len(set(string.lower()))
+return [4 if note == 'o' else 2 if note == 'o|' else 1 for note in music_string.split()]
+return sum(1 for i in range(len(string)) if string.startswith(substring, i))
+return ' '.join(sorted(numbers.split(), key=lambda x: ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'].index(x)))
+return min(((numbers[i], numbers[j]) for i in range(len(numbers)) for j in range(i+1, len(numbers))), key=lambda x: abs(x[0]-x[1]))
+return [(num - min(numbers)) / (max(numbers) - min(numbers)) for num in numbers]
+return [value for value in values if isinstance(value, int)]
+return len(string)
+return max(i for i in range(1, n) if n % i == 0)
+return [i for i in range(2, n + 1) if n % i == 0 while n != 1: while n % i == 0: n /= i; yield i]
+return [num for i, num in enumerate(numbers) if numbers.index(num) == i]
+return string.swapcase()
+return ''.join(strings)
+return [s for s in strings if s.startswith(prefix)]
+return [i for i in l if i > 0]
+return all([(n%j) for j in range(2, int(n**0.5)+1)]) and n>1
+assert len(xs) % 2 == 0, "xs must have even number of coefficients" \nassert xs[-1] != 0, "largest coefficient must be non-zero" \nlow, high = -100.0, 100.0 \nwhile high - low > 1e-6: \nmid = (low + high) / 2 \n\tif poly(xs, mid) > 0: \n\thigh = mid \n\telse: low = mid \nreturn (low + high) / 2
+return [x for _, x in sorted(enumerate(l), key=lambda x: (x[0] % 3 == 0, x[1]))]
+return sorted(list(set(l)))
+return max(l)
+return sum(str(i).count('7') for i in range(n) if i % 11 == 0 or i % 13 == 0)
+return [sorted(l[::2])[i//2] if i%2==0 else l[i] for i in range(len(l))]
+groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)] \ngroups = [(group[-1] + group[:-1]) if len(group) == 3 else group for group in groups] \nreturn "".join(groups)
+return [x for x in (lambda n: [x for x in (lambda n: [x for x in (lambda n: [((lambda f: (lambda x: f(lambda v: x(x)(v)))(lambda y: f(lambda x: y(y)(x))))(lambda f: (lambda x: x(x))(lambda y: f(lambda n: 1 if n <= 2 else y(n-1) + y(n-2))))(i) for i in range(2, n+1)])(n) if ((lambda f: (lambda x: f(lambda v: x(x)(v)))(lambda y: f(lambda x: y(y)(x))))(lambda f: (lambda x: x(x))(lambda y: f(lambda n: all(n%i for i in range(2, int(n**0.5)+1)) if n > 1 else False)))(x)])(n) if x in (lambda n: [((lambda f: (lambda x: f(lambda v: x(x)(v)))(lambda y: f(lambda x: y(y)(x))))(lambda f: (lambda x: x(x))(lambda y: f(lambda n: 1 if n <= 2 else y(n-1) + y(n-2))))(i) for i in range(2, n+1)])(n)][n-1]
+return any(sum(comb) == 0 for comb in itertools.combinations(l, 3))
+return n**2
+return [i + 1 for i in l]
+return any(-i in l for i in l if i != 0) or l.count(0) > 1
+return ''.join(str((x // base**i) % base) for i in range(int(math.log(x, base)), -1, -1))
+return 0.5 * a * h
+a, b, c, d = 0, 0, 2, 0; [((a, b, c, d), (b, c, d, a + b + c + d))[i > 3] for i in range(n+1)]; return a
+return sorted(l)[len(l) // 2] if len(l) % 2 else sum(sorted(l)[len(l) // 2 - 1:len(l) // 2 + 1]) / 2
+return text == text[::-1]
+return pow(2, n, p)
+return "".join([chr(((ord(ch) - 5 - ord("a")) % 26) + ord("a")) for ch in s])
+return ''.join(char for char in text if char.lower() not in 'aeiou')
+return all(i < t for i in l)
+return x + y
+return set(s0) == set(s1)
+return n if n <= 1 else fib(n-1) + fib(n-2)
+return brackets.count("<") == brackets.count(">")
+return all(x <= y for x, y in zip(l, l[1:])) or all(x >= y for x, y in zip(l, l[1:]))
+return sorted(set(l1) & set(l2))
+i = 2; while i * i <= n: if n % i: i += 1 else: n //= i; return n
+return sum(range(1, n+1))
+return brackets.count("(") == brackets.count(")")
+return [i*xs[i] for i in range(1, len(xs))]
+a, b, c = 0, 0, 1; [((a, b, c), (b, c, a + b + c))[i > 2] for i in range(n+1)]; return a
+return sum(1 for char in s if char.lower() in 'aeiou') + (s[-1].lower() == 'y')
+return str(x)[-shift:] + str(x)[:-shift] if shift <= len(str(x)) else str(x)[::-1]
+return sum(ord(c) for c in s if c.isupper())
+return n - int(s.split()[0]) - int(s.split()[3])
+return [min((v, i) for i, v in enumerate(arr) if v % 2 == 0)] if any(v % 2 == 0 for v in arr) else []
+return max([num for num in set(lst) if lst.count(num) >= num], default=-1)
+return [sorted(lst)[i//2] if i%2==0 else sorted(lst, reverse=True)[i//2] for i in range(len(lst))]
+return round(((s:=(a+b+c)/2)*(s-a)*(s-b)*(s-c))**0.5, 2) if a+b>c and a+c>b and b+c>a else -1
+return q == q[::-1] and sum(q) <= w
+return sum(arr[i] != arr[-i-1] for i in range(len(arr)//2))
+return lst1 if sum(len(i) for i in lst1) <= sum(len(j) for j in lst2) else lst2
+return any(a == i * j * k for i in range(2, a) for j in range(i, a) for k in range(j, a) if all(a % n != 0 for n in range(2, a) if a != n for a in [i, j, k]))
+return x == n**int(round(x**(1/n)))
+return True if round(a ** (1. / 3)) ** 3 == a else False
+return sum(1 for digit in num if digit in '2357BD')
+return "db" + bin(decimal)[2:] + "db"
+return all(len(set(s[i:i+3])) == 3 for i in range(len(s)-2)) if len(s) >= 3 else False
+return ['A+' if g == 4.0 else 'A' if g > 3.7 else 'A-' if g > 3.3 else 'B+' if g > 3.0 else 'B' if g > 2.7 else 'B-' if g > 2.3 else 'C+' if g > 2.0 else 'C' if g > 1.7 else 'C-' if g > 1.3 else 'D+' if g > 1.0 else 'D' if g > 0.7 else 'D-' if g > 0.0 else 'E' for g in grades]
+return all(string.__len__() % i for i in range(2, string.__len__())) and string.__len__() > 1
+return 2 * 10 ** (n - 1)
+return bin(sum(int(i) for i in bin(N)[2:]))[2:]
+return sum(lst[i] for i in range(len(lst)) if i % 2 != 0 and lst[i] % 2 == 0)
+return ' '.join(''.join(sorted(word)) for word in s.split(' '))
+return sorted([(i, j) for i, row in enumerate(lst) for j, val in enumerate(row) if val == x], key=lambda x: (x[0], -x[1]))
+return sorted(array) if (array[0] + array[-1]) % 2 else sorted(array, reverse=True) if array else array
+return ''.join(chr((ord(char) - 97 + 4) % 26 + 97) if char.isalpha() else char for char in s)
+return None if len(set(lst)) < 2 else sorted(set(lst))[1]
+return sum(1 for sentence in S.replace('?', '.').replace('!', '.').split('.') if sentence.strip().startswith('I'))
+return all(isinstance(i, int) for i in [x, y, z]) and (x == y + z or y == x + z or z == x + y)
+return ''.join([chr((ord(i) + 2 - 65) % 26 + 65) if i.isupper() else chr((ord(i) + 2 - 97) % 26 + 97) if i.islower() else i for i in message.swapcase()])
+return sum(int(i) for i in str(max(i for i in lst if all(i % j for j in range(2, int(i**0.5) + 1)) and i > 1)))
+return False if not dict else all(key.islower() for key in dict.keys()) or all(key.isupper() for key in dict.keys())
+return [i for i in range(2, n) if all(i % j != 0 for j in range(2, int(i ** 0.5) + 1))]
+return (a % 10) * (b % 10)
+return sum(1 for i in range(0, len(s), 2) if s[i] in 'AEIOU')
+return int(float(value) + 0.5) if float(value) > 0 else int(float(value) - 0.5)
+return [n + 2 * i for i in range(n)]
+return [word.strip() for word in s.replace(',', ' ').split()]
+return max([i for i in range(x, y+1) if i%2 == 0], default=-1)
+return -1 if n > m else bin(round(sum(range(n, m+1)) / (m-n+1)))
+return sorted([i for i in x if all(int(d) % 2 != 0 for d in str(i))])
+return [str(i) for i in sorted([n for n in arr if 1 <= n <= 9], reverse=True)].replace('1', 'One').replace('2', 'Two').replace('3', 'Three').replace('4', 'Four').replace('5', 'Five').replace('6', 'Six').replace('7', 'Seven').replace('8', 'Eight').replace('9', 'Nine')
+return [1 if i == 0 else i * f(i - 1) if i % 2 == 0 else sum(range(1, i + 1)) for i in range(n)]
+return (len([i for i in range(1, n+1) if str(i) == str(i)[::-1] and i % 2 == 0]), len([i for i in range(1, n+1) if str(i) == str(i)[::-1] and i % 2 != 0]))
+return sum(1 for num in arr if sum(int(digit) for digit in str(num) if digit.isdigit()) > 0)
+return arr == sorted(arr) or arr.index(min(arr)) == 1 and arr[0] > arr[-1]
+return "YES" if all(i % 2 == 0 for i in lst1 + [j for j in lst2 if j % 2 == 0]) else "NO"
+return {char: test.count(char) for char in set(test.split()) if test.count(char) == max(test.count(c) for c in set(test.split()))}
+return (''.join([i for i in s if i not in c]), ''.join([i for i in s if i not in c]) == ''.join([i for i in s if i not in c])[::-1])
+return ['the number of odd elements {}n the str{}ng {} of the {}nput.'.format(sum(int(i)%2 for i in s), sum(int(i)%2 for i in s), sum(int(i)%2 for i in s), sum(int(i)%2 for i in s)) for s in lst]
+return min(sum(nums[i:j+1]) for i in range(len(nums)) for j in range(i, len(nums)))
+return sum(math.ceil(sum(row) / capacity) for row in grid)
+return sorted(arr, key=lambda x: (bin(x).count('1'), x))
+return [word for word in s.split() if sum(letter.lower() not in 'aeiou' for letter in word) == n]
+return '' if not word or len(word) < 3 else next((word[i] for i in range(len(word) - 2, 0, -1) if word[i] in 'aeiouAEIOU' and word[i - 1] not in 'aeiouAEIOU' and word[i + 1] not in 'aeiouAEIOU'), '')
+return 'Yes' if lst[0].count('(') >= lst[0].count(')') and lst[1].count(')') >= lst[1].count('(') or lst[1].count('(') >= lst[1].count(')') and lst[0].count(')') >= lst[0].count('(') else 'No'
+return sorted(arr, reverse=True)[:k]
+return sum(lst[i] for i in range(len(lst)) if i % 2 == 0 and lst[i] % 2 != 0)
+return sum([x for x in arr[:k] if len(str(abs(x))) <= 2])
+return sorted([i for i in (lambda f, n: (lambda x: x(x))(lambda y: f(lambda *xs: y(y)(*xs))))(lambda f: lambda x: [x] + (f(x // 2) if x % 2 == 0 else f(3 * x + 1)) if x != 1 else [1], n) if i % 2 != 0])
+return all([bool(re.match(r'^\d{2}-\d{2}-\d{4}$', date)), 1 <= int(date.split('-')[0]) <= 12, 1 <= int(date.split('-')[1]) <= (31 if int(date.split('-')[0]) in [1,3,5,7,8,10,12] else 30 if int(date.split('-')[0]) in [4,6,9,11] else 29)])
+return txt.split() if ' ' in txt else txt.split(',') if ',' in txt else sum(1 for c in txt if c.islower() and (ord(c) - ord('a')) % 2 != 0)
+return lst == sorted(lst) and len(lst) == len(set(lst))
+start, end = max(interval1[0], interval2[0]), min(interval1[1], interval2[1]); length = max(0, end - start); return "YES" if length > 1 and all(length % i for i in range(2, int(length**0.5) + 1)) else "NO"
+return None if not arr else sum(abs(i) for i in arr) * (1 if sum(1 for i in arr if i > 0) % 2 == 0 else -1) if all(i != 0 for i in arr) else 0
+return sorted([grid[i//len(grid)][i%len(grid)] for i in range(len(grid)*len(grid))])[:k]
+return [3 if i == 1 else 1 + i / 2 if i % 2 == 0 else tri(i - 1) + tri(i - 2) + tri(i + 1) for i in range(n + 1)]
+return 0 if all(int(i) % 2 == 0 for i in str(n)) else eval('*'.join(i for i in str(n) if int(i) % 2 != 0))
+return any(string[i:i+2] == '[[' and string[i+2:i+4] == ']]' for i in range(len(string)-3))
+return sum([int(i)**2 for i in map(lambda x: x if x>0 else x-1, map(abs, lst))])
+return True if txt and txt[-1].isalpha() and (len(txt) == 1 or txt[-2] == " ") else False
+return -1 if all(arr[i] >= arr[i-1] for i in range(1, len(arr))) else next(i for i in range(1, len(arr)) if arr[i] < arr[i-1])
+return (max(i for i in lst if i < 0) if any(i < 0 for i in lst) else None, min(i for i in lst if i > 0) if any(i > 0 for i in lst) else None)
+return max(a, b, key=lambda x: float(str(x).replace(',', '.'))) if a != b else None
+return n >= 8 and n % 2 == 0
+return 1 if n==0 else n * special_factorial(n-1) * special_factorial(n-2) if n>1 else n * special_factorial(n-1)
+return '_'.join('-' if len(word) == 0 else word for word in text.split(' '))
+return 'Yes' if (file_name.count('.') == 1 and len([ch for ch in file_name if ch.isdigit()]) <= 3 and file_name.split('.')[0] and file_name.split('.')[0][0].isalpha() and file_name.split('.')[1] in ['txt', 'exe', 'dll']) else 'No'
+return sum([x**2 if i%3==0 else x**3 if i%4==0 else x for i,x in enumerate(lst)])
+return ' '.join([word for word in sentence.split() if len(word) in [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]])
+return (lambda a, b: a * b == round(a * b))((lambda x: int(x[0]) / int(x[1]))(x.split('/')), (lambda n: int(n[0]) / int(n[1]))(n.split('/')))
+return sorted(nums, key=lambda x: (sum(int(d) for d in str(abs(x))), nums.index(x)))
+return len([num for num in nums if num > 10 and str(num)[0] in '13579' and str(num)[-1] in '13579'])
+return sum(1 for i in range(1, n+1) for j in range(i+1, n+1) for k in range(j+1, n+1) if (i*i - i + 1 + j*j - j + 1 + k*k - k + 1) % 3 == 0)
+return tuple([planet for planet in ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'][min(['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'].index(planet1), ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'].index(planet2))+1:max(['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'].index(planet1), ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'].index(planet2))]]) if planet1 in ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'] and planet2 in ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'] else ()
+return sorted([word for word in lst if len(word) % 2 == 0], key=lambda x: (len(x), x))
+return x if all(n%i for i in range(2, int(n**0.5)+1)) and n>1 else y
+return sum(i**2 for i in lst if isinstance(i, int) and i > 0 and i % 2 != 0)
+return [abs(a-b) if a!=b else 0 for a, b in zip(game, guess)]
+return f"{class_name}.{max(extensions, key=lambda x: sum(1 for c in x if c.isupper()) - sum(1 for c in x if c.islower()))}"
+return any((b[i:] + b[:i]) in a for i in range(len(b)))
+return sum(int(digit) % 2 == 0 for digit in str(abs(num))), sum(int(digit) % 2 != 0 for digit in str(abs(num)))
+return ''.join(str(number // val * rom) + (int_to_mini_roman(number % val) if number % val else '') for val, rom in [(1000, 'm'), (900, 'cm'), (500, 'd'), (400, 'cd'), (100, 'c'), (90, 'xc'), (50, 'l'), (40, 'xl'), (10, 'x'), (9, 'ix'), (5, 'v'), (4, 'iv'), (1, 'i')]) if number >= val)
+return True if a**2 + b**2 == c**2 or b**2 + c**2 == a**2 or c**2 + a**2 == b**2 else False
+return min((word for word in words if len(set(word)) == max(len(set(word)) for word in words)), key=str.lower)
+return [number + min(need, remaining), max(0, remaining - need)]
+return eval(' '.join(str(x) for x in sum(list(zip(operand, operator + [''])), ())))
+return "".join([i.lower() if i.isupper() else i.upper() for i in s]) if any(i.isalpha() for i in s) else s[::-1]
+import hashlib \nreturn hashlib.md5(text.encode()).hexdigest() if text else None
+return [i for i in range(min(a, b), max(a, b) + 1) if i % 2 == 0]

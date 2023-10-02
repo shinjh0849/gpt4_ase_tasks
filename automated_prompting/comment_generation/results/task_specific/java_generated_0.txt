@@ -1,0 +1,1095 @@
+Retrieves the parent element of a given node .
+Determines if the first array of classes is more specific than the second array of classes .
+Checks if the given path ends with any of the specified extensions .
+Set fields in the record using the provided map of fields .
+Collects and returns all required parameters from request parameters and path variables .
+Reads a 64-bit little-endian long from the array 'w' .
+Retrieves the global read quorum configuration for a specific cluster .
+Concatenates the string representations of multiple objects together .
+The code checks if a deployable unit is acceptable based on its URL and name .
+The code parses a given signature string based on its type, visiting different types of signatures such as base type, array type, type variable, and class type, and returns the offset position after parsing .
+Checks the result status and throws an exception if it's not successful .
+Retries the operation with specified times and condition .
+Removes the entry for the specified key from the map, returning the value of the removed entry .
+Increments the source offset based on the pagination mode .
+This method calculates and returns the power of a given number using a loop and bit shifting .
+Checks if the given subtype is a supertype or not by comparing their parameters and owner types .
+Converts a given logging level to its corresponding Log4j level .
+Binds annotation configuration to action configuration and updates annotation parsers .
+Formats a number to an integer if it has no decimal part, otherwise limits it to two decimal places .
+Loads a property value from a container into a POJO, with support for recyclable and synthetic properties .
+Checks if the given file is valid based on its type and size .
+Sets various debug flags based on the provided debugFlag parameter .
+Returns the package name of the given class .
+Adds a new route to the router and returns the updated router .
+Removes failed Just-In-Time binding from various stores and constructors .
+Retrieves annotation from a method, ensuring only one annotation per scanner .
+The code binds a filter to a method and path, adding it to a list of filter bindings for each specified version .
+Creates a new Demuxer instance or returns null if unsuccessful .
+Creates a new array of a specific component type using a method visitor .
+Closes all open entity managers in a non-transactional stack .
+Builds a Guice application with specified context, configuration, and overrides .
+This method returns the status document of the operation, including configuration, status, and log, and notifies all listeners if the status is finished .
+Set the previous polygon, with a special case for CFPolygon instances .
+Handles a request by either using an existing context or creating a new one .
+Performs cubic interpolation between four points with a specified parameter .
+On closure, iterates through the invokeFutureMap, removes each entry, and handles the associated future if it's not null .
+Determines the color of an item based on its scroll position and selection state .
+Returns the local variable type at the given index, or assigns and returns a new type if it hasn't been assigned yet .
+Configures the EventStream with secret key, keep alive period, and parameters .
+Initializes the Persistence and Basic services for the given applet .
+Merges two lists of coordinates into a single list .
+Copies default properties like severity, profiles, and message from annotation to the destination check .
+The code checks if the given conditions match the value or the object itself .
+Summary: Retrieve message type by its name
+Stops the timer that checks for lost connections .
+Removes binding associated with a given prefix .
+Reproject the bitmap tile to the requested projection
+Determines if the raw data is not null and either the fifth octet is not 255 or the fourth octet is 0 or 255 .
+Reads an integer from available data, ensuring sufficient data is present .
+Ensures a URI ends with a trailing slash .
+Retrieves the resource adaptor interface for the specified resource adaptor type .
+Replaces a Remote object with its stub representation in the given object, if applicable .
+Validates keystore by creating SSL context with given keystore and passwords .
+Closes publications of all members in a cluster .
+Checks if there is an unsaved status in the view map of the current instance of FacesContext .
+Adds view interceptor with a given priority to all cached methods .
+Configures the ServletContext by adding listeners and filters if certain conditions are met .
+Retrieves the database thread session associated with the current thread .
+Applies a condition to an INDArray and sets matching values to a specified number .
+Initializes the charts map for the given workbook, specifically for XSSF workbooks .
+Rollback all transactional resources and invalidate the current transaction ID .
+Opens a file with the given parameters and reads its header using the NOWRadheader parser .
+Registers a SQL type class to a specific type in the system .
+Send an email using the created message and return the message ID .
+Retrieves the sorted list of view interceptors for a given method .
+Retrieves the context root from deployment metadata, prioritizing application .xml over jboss-web .xml .
+Creates an immutable set from given items, returning an empty set if no items are provided .
+Loads the specified Guice modules into the application builder .
+The code sets the stations, wraps each in a StationUI, stores them in a list and a hash map, and then calculates their world positions .
+Set icons for a specific feature row in a table .
+The code renames a source file to a target file, and if they are on different volumes, it attempts to rename by copying .
+Adds new rulesets to the existing ones or initializes if none exist .
+Retrieves the range of values for both the X and Y axes .
+Converts attribute values to Kamols markup format .
+Prepares a method by resolving its class name and method name, and then retrieves the method from the target class with matching argument types .
+Stores an object with its hash code and ordinal in a specific segment .
+Converts a list into Criteria by calling the createCriteriaFromClass method in ObjectFilter class .
+Creates a custom WroManagerFactory instance or throws an exception if the class is invalid .
+Inspects and creates descriptors for all constructors of a given class type .
+Retrieves the list of indexed feature types .
+Retrieves a system property by name, if not found, returns a default value .
+Checks if the provided object is an instance of the specified class, throws an exception if not .
+Adds a new listener to the listeners list if it's not already present .
+Capitalizes the first character of a string .
+Sets a new projection to all feature sets in the feature set list .
+Retrieves the parent of a given node at a specific index .
+Rewrites point feature dataset from one file to another, optionally in memory for speed, and logs the time taken .
+Parses array content and converts it to the target type, handling special cases and syntax errors .
+Sets the thread's data and streams to a new ByteArrayOutputStream instance .
+Updates the 'mostVague' variable by checking if any presence level in the resource list is greater than the current level .
+Close the connection due to an incorrect handshake, generating an HTTP response with error 404 .
+Executes main query plan by filtering the given expressions and adding results to a new result set .
+Retrieves the schema for a specific table from the ShowTableResponse and returns it as a JSONObject .
+Determines if gzip should be used based on the mime type or if gzip usage is always set .
+Maps a function name to a method with specified parameters in a class, considering package protection .
+Execute a database operation within a transaction and handle exceptions .
+The method getAzimuths returns an array of azimuths, initializing it if necessary .
+Sends a packet, invokes interceptors, queues it for sending, and notifies packet writer listeners .
+Sets the transformers for the model and validates that they are not null .
+Saves a property of a POJO into a datastore, considering indexing instructions and handling exceptions .
+Retrieves JSON data from a specified URL using a GET request .
+Retrieves the unique child element with the specified tag name from a given element .
+Joins elements of a collection into a string, separated by a specified character .
+Fetches pending entities from the datastore, combining them with already retrieved entities, and returns the combined result .
+Sets up system properties for encoding and decoding mail filenames .
+Filters and returns the list of impressions from a bid request based on a given condition .
+Loads arguments of a static method into the method visitor .
+Create a new admin user with a specified password .
+Sends data from a variable to an output stream with specified section and compression .
+Adds abstract base value types from a container analysis to a list and returns it as a string array .
+Moves a file from source to destination, and if an error occurs during the process, it removes the destination file .
+This method retrieves the architecture of the current device .
+Writes characters from an array to a file with a specified encoding .
+Adds the top level class loader and its associated class loaders to the deployment class loaders map .
+Creates a read-attribute operation using the specified address and attribute .
+Sets the map area in the navigation system using the provided latitude and longitude rectangle .
+Retrieves a configuration by its key and sets the service ticket if available .
+Removes a key-value pair from the data, retires the entry, counts closed files if open, and logs the removal .
+Deletes a database if the confirmation message is delete database .
+Parses a grid element, its array and map elements, and adds them to the parent grid object .
+Sets a filter for emails based on the subject line .
+Creates a heuristic search node with a given state .
+Adds a key-value pair to a section, with optional trimming and operator application .
+Reads a string from a file at a specific offset .
+The code binds a new naming context to a specified path and returns a new context object, handling any exceptions that may occur .
+Summary: Converts a list of tokens into a single string using the OpenKoreanTextProcessor .
+Binds a namespace URI to a given prefix .
+Validates the argument index for a given method information, throwing an exception if it's invalid .
+Converts world coordinates to screen coordinates .
+Replaces file template with the ensemble name at the specified index .
+Divides the 3D geometric tuple by a given value .
+Sorts the values in a map based on specified criteria .
+Initializes chart data from an XSSFChart object .
+Synchronizes data to disk if there are changes and the output stream is available .
+Generates a hashcode from a given byte array .
+Determines if the given field type is nullable in a JSON object .
+Converts a string segment into a double value .
+Adds a throwable to a specified type and handles any exceptions .
+Builds an email message and sends it, returning a Future object indicating the success of the operation; in development mode, a mock email is sent instead .
+Writes a variable integer to the output stream in byte encoded format .
+Checks if all fields in a given class are public
+Adds a value-level pair to the map if it doesn't already exist .
+Refreshes cached cells in the current page of a specified table in the FacesContext .
+The function getRequestInfo collects and returns various request properties in HTML table format .
+Retrieves the JarFile associated with a given class .
+Triggers an asynchronous refresh of the HollowClient after a specified delay in milliseconds .
+Calculates the S-Curve function for a given input .
+Merges two maps, avoiding duplicate entries .
+Clears all stored passwords by setting characters to zero and reinitializing the secrets list .
+Generates files in a specified directory for Hollow API, API Factory, and Hash Index .
+Finds or creates a child route chunk based on the given value .
+Applies a license using the provided string parameter and returns a new license request .
+Builds the DMR by filling it with the contents of the ncfile root group, sorting it, locating the coordinate variables for maps, and setting the view .
+Inserts metrics into a column family, records delayed metrics, and handles connection exceptions .
+Set the query string for the search result in the JCAS type system .
+Formats a double number to a string with specified length, padding on the left if necessary .
+Checks if a delayed locator for a specific slot is current
+Opens a feature dataset from a given inventory dataset and returns the result .
+Resolves the real name of a given JSON name for a specific class type .
+Retrieve the EJBEndpoint for a given class name from a JAXWS deployment's list of EJBEndpoints .
+Adds a new entry to the default configuration with a key, value, and URL .
+Add a Connection Event Processor to the Processor List
+Crops a section from the original image and saves it to a specified file .
+Sets the value of the Reihenhaus property .
+Expands the latitude and longitude boundaries of the current rectangle to include the given rectangle .
+Add a query parameter to the URL if the value is not null .
+Restore data from CSV file into SQLite database using a specified suffix .
+Print the logo using the Chalk256 library and Jodd framework .
+Modifies array elements by adding product of coefficient array and a given level at specific indices .
+Find parent rows mapping from shift map excluding first and last parts .
+Restores the state of an object by iterating over its inheritance chain and setting field values from a cached map .
+Maps database columns to corresponding parameters based on the operation type and record fields .
+Constructs a Mercator Projection using given longitude and latitude parameters .
+Creates an immutable list from given items, returning an empty list if no items are provided .
+Copies the source directory to the destination directory .
+Returns a subsequence from the input, or an empty sequence if the start and end indices are the same .
+Converts a URI to an authentication scope .
+Parses a document using the Lagarto parser and returns the parsed document .
+Returns the smallest node from a given node based on the index .
+The method configures a field by its name in the given criteria, creating joins if necessary, and returns a holder with the current field name, criteria, and field metadata .
+Serializes an object along with vendor data if it's not null .
+Sets the slope angle using cosine and sine of the given angle .
+The code logs an event to a remote host, resets the connection periodically to prevent memory leaks, and handles connection issues .
+Opens a DSL file and returns a buffered reader
+Unpacks GRIB1 data, scales it using a provided scale factor, and handles missing values .
+Adds a double option with given short and long form identifiers .
+The code generates a formatted string representation of grid records, including level and valid time details .
+Removes the object pool associated with the given profile table .
+Generates a string representation of the environment frame data .
+Registers a user processor to the server, ensuring the processor's interest is not blank and not already registered .
+Visits a jump instruction in the given method visitor if it's not null .
+This method prevents allocation from a specified Workspace .
+Determines the base 10 logarithm of a long value .
+Writes an array of shorts starting from a specified index .
+Creates a failure snapshot for a pipeline batch if no failure snapshot exists already .
+Finds the first occurrence of a sequence in a source string starting from a given index .
+Clears all entries in the hash data structure, resetting its size to zero .
+Retrieves the host and port for a given service name .
+Generates an XML representation of a given point's coordinates .
+Generates a string representing the width style in percentage for a column based on its width and the total width .
+Writes an integer value to the input array and packs it if the input size reaches a certain limit, also manages memory slabs for efficient storage .
+Opens a file stream using a specified path and file extensions .
+Sets a new value for the resource representation .
+Adds statistics to the collection, updating min, max values and null counts, and increments the page index .
+Finds and returns the names of parameters using the provided parameter name factory, or null if none are found .
+Generates a padded string representation of a long value with a specified width .
+Determines the method level based on various styles and default method interface .
+Registers a new resource adapter deployment .
+Returns the size of the data from a specific data source or throws an exception if no data or reference is present .
+Set default style for a specific feature in the feature table
+Recovers all serialized rows in the sheet .
+Adds a specific action filter to the MadvocRouter
+Starts two threads to process write and read queues at a fixed rate .
+Converts a given object to a string using a conversion method, or uses the object's toString method if conversion is not possible .
+Converts an empty string to null in the given path .
+Notifies the send listeners about the packet being sent .
+Assigns argument registers to functors in the argument of the outermost functor, excluding variables, in the given expression .
+Clears all entries in the HttpMultiMap and resets the head .
+Returns the next character from the input stream, decoding unicode characters if necessary .
+The function adds a metric index and its document count to the appropriate data structures based on the metric's level in relation to the base level .
+Summary: Add a direct type binding to the binder using a real direct type provider .
+Determines if the given string value represents a date or time format .
+Set the media type for the ChannelUriStringBuilder object
+Returns the output plugin behavior for given identifications
+Translates a client's HTTP server handshake request into a HandshakeBuilder object .
+Configures cell style based on input type and sets web, column styles for the cell in the workbook .
+Handles command resources by filtering, verifying, and executing music-related commands .
+Retrieves or initializes inheritable ThreddsMetadata from the dataset .
+Opens and configures datagram channels for sending and receiving data, with special settings for multicast .
+Applies a function to elements of a list in reverse order, starting from a given value .
+Returns a stack trace element for the first module class name that should not be skipped, otherwise returns unknown source .
+Obtains the standard URI from the parent catalog of the dataset or returns the unresolved URL name if no parent catalog is found .
+Creates a CalendarDate object from given calendar details with UTC timezone .
+Writes an integer to the output stream with a specified type and data .
+Starts a process that writes data and updates time at fixed intervals .
+Calculate the tangent of a rotated ellipse at a given point .
+Converts a string with backslashes to a DAP-compliant format, escaping non-allowable characters in hexadecimal .
+Prepares header parameter name by capitalizing the first letter after a space and handling special cases .
+Calls a mixin with the given name and arguments, applying them if passed, and sets the parent rule set as invisible .
+The function finds and returns the property editor for a given type name .
+Returns an array of model indices for each column in a table .
+Extracts a double value from a byte array, considering the endianness of the data .
+Handles the selection of a track by retrieving track information from an event model and if not present, throws a player error, otherwise selects the track .
+Parses input stream into a map of file types and their corresponding file names .
+Initializes the schema generator with the provided configuration and context, returning an empty list of configuration issues .
+The method adjusts the names of overloaded operations to avoid violations of RMIIIOP standards .
+Checks if indexed function execution is allowed on the target .
+Retrieve all interceptors, including class, default, and method interceptors .
+Checks if the given locator is current in the batch layer .
+Returns a Method object that retrieves the value of a specific type .
+Registers a SASL mechanism with a given name and class .
+Lists recordings from a specified ID, with a set record count, correlation ID, and control session ID .
+Extracts user ID from the response body if the success query is true and the results query returns a single unique result .
+This method renders a plan view on a 2D graphics object, including grid, contours, and bounding box, based on various data states .
+Initializes the message queue based on the properties provided, handling potential configuration errors .
+Creates a command line interface using the provided instance and throws an exception if the option specification is invalid .
+Set the abbreviation for the ConceptType in the Java Common Analysis Structure (JCAS) system .
+Surrounds a string with a given prefix and suffix if they are not already present .
+Calculates and returns the maximum radial value in kilometers .
+Compares the current object with another TimerTask based on their next execution time .
+Evaluates a record by checking if the string representation of the left object contains the string representation of the right object .
+Maps notification entries from a source, normalizes the link, and parses the due date .
+Verifies an event model based on capabilities, player ownership, playlist verification, and target selection .
+Appends a given suffix to a string if it doesn't already end with that suffix .
+Extracts and replaces patterns within a given expression using a predefined regex dictionary, handling named capture groups .
+Multiply this complex number with another complex number
+Multiply this matrix by a float constant .
+Raises the current unit to a specified power .
+Sets the full name in a hidden column of a specified row .
+Generates a 3D transformation matrix from given axis rotations and translations .
+Retrieves the contents of the system clipboard using the ClipboardService, if available .
+Returns a validation handler, creating a new one if it doesn't exist .
+Set this column vector from an array of float values .
+Extracts and returns echo messages from the return value list .
+Handles bad requests by returning a completed future with a bad request result .
+Extracts properties from profiles and wildcard patterns into a target map .
+Parse a catalog file from a specified filename, handling potential exceptions and errors, and load the catalog if the file exists and is successfully parsed .
+Retrieves scalar double value from a structured member's array data .
+Resolves and returns request headers from given map and record .
+Check if the passthrough property is set to true .
+Generates a SQL query to load all version data from a specified table .
+Evaluates an expression with security checks using ExpressionFactory and ELContext .
+Copy a specified number of bytes from an input stream to an output stream .
+Check if all slices in the list have a single point .
+Retrieves a scalar float value from a given structure member .
+Generate a unique name using a source object, UUID, and an extension .
+Allocates a counter in Aeron with specific parameters including leadership term, log position, timestamp, replay flag, and snapshot recording IDs .
+Returns a new function that casts to the specified class .
+Generates a constraint string from the slice information, including start, stop, and stride values .
+Clears all entries and removes all attributes from the keys .
+Triggers a timeout request for a specific message ID .
+Continuously processes all objects in the queue until it's empty .
+Finds the root package for a given action path in the mappings .
+Calculates the minimum squared distance between a point and a polygon's vertices .
+Acquire a database from the pool with given name, user credentials, and optional parameters .
+Retrieves a list of logger names matching a given regular expression .
+Adds a coordinate system variable to a Netcdf file with specified name and dimensions
+Retrieves locators based on execution context and granularity, considering delayed metrics if enabled and reroll conditions are met .
+Checks if the given unit is compatible with the date reference unit .
+Initializes the object by calculating the average word length and maximum ordinal of a type, and then builds the prefix index .
+Create a file reader for generic data records from the input stream .
+Builds cell formula for rows shifted in a sheet, only if a watchlist exists and the formula has changed .
+The method compares digits in two strings, returning an array indicating the difference in length, the difference in values, or the difference in leading zeros .
+Generates a Docker JSON configuration string using server credentials from Maven settings .
+Sets the bounding box by extending the largest coordinate system's bounding box .
+Retrieves the first child element of a given element that matches the specified name .
+Remove a feature row from the table by its ID and table name .
+Swaps the value at a given index with a new value in the collection .
+The code creates a vertical transformation for a grid dataset, and logs an error if the transformation cannot be made .
+Extracts a tag from a given string parameter value . If the value is tagged, it parses it into a long ASCII, otherwise returns an invalid tag .
+Retrieves the value of a variable from the parent scope, if not found, returns the variable's name for debugging .
+Determines if the given child configuration range is within the parent configuration range .
+Set the schema for a job in GroupWriteSupport
+Generates a unique clause from a term within a new variable scope, throwing an exception if the term is not a valid Prolog sentence .
+The method 'execute' checks if a round needs execution, if so, it gets the next round and executes the current one .
+Build a JSON object from a file .
+Registers a JillExtension if it's not null, otherwise logs a warning about the null extension .
+Clone and assign comment from source cell to new cell .
+Retrieves track information from an event model if available, otherwise returns an empty optional .
+Extracts the simple name of a component's class if it is supported, otherwise returns null .
+The function checks if a property type should be ignored based on various conditions including its class type, whether it's included or excluded, and its name .
+Releases the global write lock ensuring single thread execution .
+Triggers the expansion of wildcards in a collection of files, handling any exceptions .
+Returns a namespace ID, creating a new one if it doesn't exist using the provided namespace name .
+This method retrieves the stem of a given word .
+Find a database entity column descriptor by its column name
+Converts the given string value into an array of BeanReferences after trimming and splitting it .
+Parses a stream error from an element, extracting the error code and text .
+Retrieves the raw configuration map for the processor by its name .
+Retrieves or creates a logger based on the provided log record's name .
+Converts the given value to the specified destination type using the TypeConverterManager .
+Summary 4: Initialize parsing elements and set initial parsing time .
+Replaces tile generator variables x, y, and z in the URL with their respective values .
+Sets a value on a given object, loading it from a specified context and path .
+Determines the axis type of a given variable in a Netcdf dataset based on its unit .
+Deletes an index from the table metadata data source .
+The function prints a string to the output stream, using the specified content type encoding if available .
+Checks if a method is allowed and returns the result as an Optional Boolean .
+Calculate the latest modification timestamp across all channels .
+Retrieves the current or next JSON token from the parser .
+Skips characters in a string until a specified end tag is found .
+Determines the data packing type of a specified grid in a multi-dimensional data model .
+Checks if the grid record's level type is not 1 or 5
+Adds a check to the list associated with the check's name in the map .
+Builds a list of chart series from the given list, theme table, and chart object .
+Resolves the response object from a command and handles exceptions .
+Generates and wraps a CSRF token for a given HTTP request .
+Encode the given string into UTF-8 format and replace spaces with %20 .
+Copy out attributes from the target object using the provided attribute setters and object name .
+Reads an unbuffered 4-byte integer at a specified position, considering endianness .
+Finds matching records for a given type, field name, and field value .
+Check if the vertical Z-axis is positive or represents height .
+Checks if checkpointing is active in the StreamSets Data Collector .
+Converts input stream to string using specified buffer pool and UTF-8 encoding .
+Adds a dimension to the specified parent group and returns it .
+Negates a complex number and returns the result as a double .
+Retrieves the class name of the given action object after resolving its target class .
+Removes optional variables from URI template components based on the given action descriptors .
+Retrieves the list of group names from group information .
+Returns a list of nodes that have not responded .
+Requests a subscription with a specified prefetch limit .
+Creates a decimal spinner field with specified parameters and associates it with a service ticket if available .
+Converts a list of arguments to a string representation based on various conditions .
+Method for generating ObjectName using profile table name and profile name
+Calculates the lag in bytes for a given file offset .
+Saves the base64 encoded symmetric key to the provided output stream .
+Recomputes focus based on user interaction for each highlight view in the list .
+Aborts the process by adjusting the buffer's frame length and setting its type to HDR_TYPE_PAD .
+List all offline synchronized indexes in the application directory .
+Identifies fields to be nullified based on conditions from NullReplacerConditionalConfig and existing fields in the record .
+Converts a list of services to an array of services, handling null and non-ArrayList instances .
+Retrieves name bindings from child nodes .
+Retrieves the style data access object if the style table exists in the geopackage .
+The method lists resources from a specified path, including those from overlays if they exist .
+Collects and reports metrics data for a list of applications, handling any errors that occur during data retrieval or reporting .
+Restores saturation by completing the relevant stage and invalidating the consistency checking stage if changes occurred .
+Retrieves an ActionInputParameter by name from request parameters, path variables, or input parameters .
+Executes a form by validating fields, building a JSON string from form values, and executing the HTTP method .
+Applies gzip compression to HTTP response for resource optimization .
+Retrieves and concatenates the definitions of all functions in the database that match the specified language .
+Retrieve school ID from user preferences or username if not found .
+Retrieves a value from a specific segment and position in an array .
+Adjusts the visibility and interactivity of views based on the calculated percentage of the given width .
+Loads properties from a map into the data object, with a specified prefix added to each key .
+Clears the Bonsai tree structure by deleting all its subtrees and resetting its size to zero .
+Handles errors for a specific BlobId based on the configured error handling option .
+Maps EL functions, appends declarations to root node if present .
+Create a new GempakStation object by setting its properties using values from the header array .
+Adds a vertex to the OrientDB graph with the specified id .
+Determines if the substitutor is enabled in the bootstrap configuration .
+Sets the value of the minDauer property .
+Calculates the inverse hyperbolic cosine of a BigDecimal number .
+Writes properties to a temporary file and returns its URL .
+Generates a query string map from time parameters and metric path .
+Converts the specified field's data to an array of doubles based on its type .
+Prints the introduction of the LoJiX Prolog program .
+Generates standard URI from unresolved URL name in the parent catalog .
+Retrieve the column name for the given property name, return null if not found .
+Determines the connection direction and class based on the provided direction, field name, and class names .
+Checks if the given class type is a primitive wrapper .
+Summary: Cleans up database evolutions with optional autocommit and specified schema .
+Find and return service instance of a specific class from a collection
+Converts index to slices based on the template's dimensions .
+Lists the objects in a collection to a string builder, separating them with commas .
+Creates a field path for prefix index in a HollowDataset, with options for auto expansion and requiring full path .
+Renames a GeoPackageMetadata entry by updating the name in the database .
+Retrieve a user property from the userMap .
+Creates a new Tuple2 from a Map entry, unless the entry is already a Tuple2 .
+The code scans a buffer for available space, considering padding and frame alignment .
+Removes a specified argument from a function and updates the argument references .
+Parses a date from an object using the pattern specified in the JsonFormat annotation of the field .
+Adds a packet filter to the array, expanding the array if necessary .
+Clears all children from this node and sets it as a leaf node .
+Adds order by projections to the query planning information if certain conditions are met .
+Creates a GradsTimeStruct object from a given calendar .
+Checks if the current date is after the specified date .
+Filters and returns the stack trace elements of a throwable based on allowed and denied class names .
+Creates a new message using the provided format and arguments .
+Summary: Sets the email message with given HTML content and encoding
+Determines the size of an anchor in a spreadsheet by calculating its width and height based on cell dimensions .
+Calculates the price of encoding a single byte using either a literal, a short repetition, or a literal followed by a long repetition .
+Sets a specified property value on an object, with an option to ignore non-existing properties .
+Creates a persistent hash map from an iterable collection of key-value pairs using a specified equator .
+Compiles a query from a given clause, tracking variable assignments, allocating registers, and generating prefix code for the clause .
+Upgrade document version and elements in OpenImmoTransferDocument .
+Writes the given character sequence to the output, handling any exceptions .
+Reconnects the JMX by closing any open client cache and disposing the current JMX instance .
+Checks if the driver is active by comparing the driver's timeout and the age of the last heartbeat .
+Converts a general conic source to a 3x3 matrix .
+Creates a leaving event with specified source and descriptors, and returns it as an optional .
+Gets the value of the HausKategorie property, returns 'Keine Angabe' if null .
+Invokes a method on an object with provided arguments and handles exceptions .
+Executes a specific function with cached operations in a differential function list .
+Retrieves a cursor method type, defaults to BLOB if not found .
+Write string object to output stream .
+Retrieves the key of a specific ID from a set of columns .
+Remove entity if inactive and deregister its notification source
+Add all filters to RestAssured filters from a non-null filter list .
+Inserts a triple into the triplestore and returns the previous triple .
+Submits an input to the buffer if not terminated or interrupted, and returns true if successful .
+Accepts an observer and checks if any object in the array meets the observer's conditions .
+The method checks if a type is not specified in the configuration exception by comparing error messages .
+Creates a start event record with user, pipeline ID, title, and runtime parameters .
+Converts the 2D transformation to a homogeneous 3x3 matrix .
+Gets the value of the Zimmer property .
+Finds the index of the next clear bit starting from a specified index .
+Closes connection due to internal server error and sends an HTTP response with error status 500 .
+Retrieves changes by sending a GET request to the specified URI .
+Performs top level check on a given term clause .
+Validates the target object and returns a list of violations .
+Returns the name of the request parameter, path variable, or method parameter if they exist and are not empty .
+Ends the interpretation context and starts the appender if it's an instance of LifeCycle, also checks if the object at the top of the stack is the same as the appender .
+Create URLFilters from the configuration file, handling any exceptions .
+Summary: Removes a property listener and notifies it if it was successfully unbound .
+Summary: Increment java line count and print the string with indentation .
+Creates a JSON configuration with specified pretty print and share references settings, throws an exception for unsupported flag combination .
+Reconnects to the server if the connection is lost, and restarts the component if not in shutdown mode .
+Converts a string to camel case format .
+Unzip a file to a destination directory with optional patterns .
+Prints detailed information about each active thread for debugging purposes .
+Find a method in the target class that matches the given name and arguments .
+Sets the content type header of the HTTP response based on the file's MIME type .
+Generates a filtered map from the source map, considering modifications, inclusions, exclusions, and removal properties .
+Reads data from a variable, converts it to byte array, writes it to a byte channel, and returns the count of written bytes .
+Notifies active listeners about the property changes .
+Collects all entries from each roster group and unfiled entries .
+Converts a string name to a Java class, considering array types and using a specified class loader .
+Insert character at a specific index in a string .
+Handles the request by invoking the appropriate method, handling exceptions, and redirecting to a login page if necessary .
+Check if a method is an accessor by examining its name, return type, and exceptions .
+Generates a random, solvable start state for an eight puzzle game .
+Serializes a value into JSON format, preventing circular dependencies .
+Converts a given number into an Excel column name by dividing the number by 26 and converting the remainder into the corresponding letter .
+Checks if a resource group has changed and updates the cache accordingly .
+Retrieves a list of FeatureDaos associated with a specific tile table from the GeoPackage .
+Reads a specified number of bytes from a file into a byte array, throws an exception if the file is too large .
+Processes HTTP request, handling both multipart and traditional POST methods .
+Scans and collects classes that extend the Plugin class from the specified package .
+Generates an MD5 hash for the given text string .
+Create a text barcode field with a specified barcode type and service ticket .
+Returns a resource definition for Elytron Key Managers, with dependencies and error handling for JSSE configuration and Key Manager components .
+Applies a condition to an ndarray and returns a boolean array based on the result for each dimension .
+Initialize tail with term ID in the metadata buffer at a specific partition index .
+The method registers a component with a given name and class, and applies a consumer function to it, while also logging the process .
+Returns the first child element of the parent element that matches the given child names .
+Retrieves the name from the log, extracting the substring after the last occurrence of  . .
+Determines vocabulary from a given mixin source, bean, and mixin class .
+Creates a StationHelper by reading station data from a remote query .
+Adds an entry to the tracked entries and starts the monitoring thread if it's not already running .
+Calculates and sets the average coordinates of the vertices in a 2D polygon .
+Sets the current screen state and notifies all listeners about the change .
+Calculates and returns the center point of two 3D points .
+Adds a source image to the build configuration based on the specified mode, either using a Docker image or an ImageStreamTag from OpenShift .
+Sets the parent group for the variable members, throws an exception if the group is immutable .
+Encrypts a string and encodes it into Base64 format .
+Retrieve keyword names from the test library and add stop_remote_server to the list .
+Evaluates if an attribute matches a filter by comparing attribute value with filter's operand using the filter's operator .
+Extracts a subset of properties that start with a specific prefix from the given properties .
+Generates a list of 3D points with random coordinates around a mean point .
+Creates a Gson object with optional pretty printing and custom type adapters .
+Parses a file and adds entries of each line's metadata and stripped content to corresponding sections .
+Puts a padded 32-bit integer as a string into a ByteBuffer .
+Halves every element in the table and adjusts the size accordingly .
+Sets a property with a specified key and value .
+Disables checks if the Spring version is null or equals the Spring Security version .
+Removes a profile table, its profiles, and associated resources, and performs cleanup actions after transaction commit .
+Adds an ActionSourceListener to the event type and throws an exception if the event types don't match .
+Add a default header to the API client
+Converts a string name and object value into a new instance of the specified type .
+Retrieves a valid value, returning null if the value is the object itself or a base header .
+Reads data from a variable to a byte channel, using cached data if available .
+Returns the PointForecast for the specified date and time, if available .
+Determines the end index of a node by calculating the cumulative node count up to the given index .
+The code checks if a given string matches a specified pattern, considering wildcard characters and handling edge cases like end of string or pattern .
+Sets the active naming store after performing a security check .
+This method retrieves an entry from either the liveMap or lingerersMap using the provided key .
+Visits an inner class with specified names and access level .
+Removes the value at the specified index from the data map .
+Checks if the request has timed out based on the current system time and arrival timestamp .
+Read verification type info and update frame based on tag value .
+Returns all properties from defaultProps and props as an unmodifiable map .
+Updates the configuration of a resource adapter with the given properties and verifies them .
+Returns a new synchronized set decorated from the given set .
+Initializes the learning model by setting input and output properties and validating training examples .
+Normalizes an array of values and generates fixed precision output based on the provided precision bits .
+Calculates tile density using the minimum of tile width and height .
+Checks if source file exists and is a file, if source and destination files are equal, and if destination parent directory exists, creates it if not .
+Recalculates navigation parameters based on bounding box dimensions .
+The method transfers metadata from one dataset to another, optionally including parent metadata, and ensures the transferred metadata is mutable .
+Returns the raw value of a key if it's not null .
+Retrieves a list from a key, if retrieval fails, returns null .
+Converts a given ISO3 country code to its corresponding ISO2 code .
+Register standard events by adding listeners to various common events .
+Finds and returns class loaders from the context, excluding duplicates and certain class loaders .
+Retrieves the class name without the package information .
+Builds the provider URL using the provided list of URLs and the base DN .
+This method attempts to authenticate a user using pre-authenticated principal and credentials from the request .
+Sets the value of the pacht property .
+Converts tracer name to Log4J logger name with notification source .
+Visits the outer class with specified owner, name, and descriptor .
+Finds a match for the given key in the match fields, returns null if no match is found .
+This method calculates and returns the offset of a specified column in a table .
+This method removes the resource adaptor context and updates the state, throwing an exception if the object is not in the unconfigured state .
+Validates the given RawSld object by parsing its XML content .
+Unifies two terms by finding the most general unifier and retains only the free variables in the query .
+Generates a sample dataset with specified number of samples using random selection .
+Clears all data from the template comment map, cell date pattern, cell input attributes, cell input type, and cell select items attributes .
+Checks the database connection and logs the database product name and version .
+Retrieves the database file, creating a new one if the provided filename is null or a directory .
+The code loads a class with a given name, first checking if it's already loaded, then attempting to load it from the parent class loader or the current class loader based on the loading resolution .
+Rewrites the image URL in the CSS file, handling different cases including protected resources, classpath resources, and external server resources .
+The code sends an email with the content generated from a cyclic buffer and a specific event object .
+Inserts a string into another string at a specified position .
+Retrieves all declared methods of a given class, considering security manager presence .
+Registers a bundle with a unique ID created from source files, and handles it based on the chosen strategy . If registration fails, it throws an exception .
+Applies a key to an entry, creates a new entry if none exists, and attempts to insert the new entry, rehashing if necessary .
+Sets the value of the furnished property in the OverseasRentalAdType .
+Adds a UTF-8 constant in the constant pool of this symbol table . Does nothing if the constant pool already contains a similar constant .
+Creates a complex ndarray of specified shape and assigns a given value to all elements .
+Starts a new session and sets an authentication cookie with a specified maximum age .
+Loads an image from a URL, rotates it, and updates the status of the source picture .
+Determines if the grid record's level type is a vertical coordinate based on specific conditions .
+Tracks and logs delayed metrics for a specific tenant, including each metric's locator, collection time, and delay in minutes .
+Generates the current date string, and updates it if more than a second has passed since the last generation .
+Adds an action to the rule and returns the current instance of the rule builder .
+Applies pre-processors to a resource and returns the processed content as a string .
+Checks if this object is a wrapper for a given class .
+Sets debug flags based on the given debugFlag parameter .
+Creates a simple long-term forecast for the next seven days .
+Returns the source relation from a specific passage retrieval type .
+Processes pending bytes by running them through the match finder if enough new data is available .
+Sets up authentication and proxy for the HTTP client builder, including SSL factory, credentials, and proxy credentials .
+Creates a SimpleUnit instance using the provided name .
+Serializes the given descriptor into a string format .
+Sets a local variable at the specified index, resizing the array if necessary .
+Processes collection update events and updates the type if the event is for the current collection .
+Iteratively refines the solution x to machine precision by minimizing residuals .
+Determines the operation class type based on the instance of the operation .
+Creates a file reader for a specific file, scanning the file if necessary, and publishes a start event if the file offset is at the beginning .
+Retrieves the size of a specific file or throws an exception if not found .
+Identifies and returns non-existing referenced Resource Adaptor Entity Links from a service component .
+Adds a route to the beginning of the routing list and returns the updated router .
+The method creates a default namespace or project in Kubernetes based on the platform mode and configuration, if no existing namespace is found .
+The code checks and creates a connection, then polls data either in batches or individually, and handles any IOExceptions .
+Creates GeometryMetadata from a database cursor, including handling of null values .
+The code retrieves all edges from the graph, with support for transactional changes, lightweight edges, and label-based filtering .
+Checks if the given object is present in the array .
+Reset the buffer vector with new buffer, offset, and length .
+Generates an OGNL setter method for a given class, method, and field, and adds it to the class .
+Invokes the LaunchNakamura class in a new thread on the event dispatching queue .
+Bind a Logger instance to the InjectorImpl object .
+Appends character array to the builder .
+Add a constraint validator to the mapped validator factory
+Retrieves robot rules set from cache using a given URL .
+Retrieves the supported audio channel layouts excluding the unknown ones .
+Creates a BuildDocHandler instance from a given directory, jar file, and base string .
+Update the text barcode field with the provided barcode type and service ticket .
+Determines the gate size based on the given data type .
+Compiles the provided source code into a class with the given name .
+Create a new unit with a specific name, symbol, and definition .
+Appends default prefix to role if not already present .
+Load and return a JillExtension instance using the provided class name .
+Terminates extensions, shuts down threads, finishes agents, and closes the writer .
+Logs an exception when a connection error occurs in the channel context .
+Calculates the cost of promoting a source class to a destination class, considering unwrapping penalty and order of primitive types .
+Retrieves the index of a specific key in a map, returns -1 if key is not found .
+Registers a set injection point for a specified property in the given bean name .
+Converts the input stream to a byte array and handles any reading errors .
+Increments active transaction count and registers synchronization for the created transaction .
+Determines the best numeric type for an operation based on two given types, considering if non-numeric values are allowed .
+Applies a supplemental hash function to a given input, using a random seed for additional randomness .
+Retrieves the browser-targeted billing agreement configuration .
+Initialize and run a cluster streaming process, ensuring necessary environment variables and directories are set .
+Executes a database command with given arguments and returns the result as a list .
+Summary: Calculate modulus of a long number 'c' with respect to 'bucketSize', considering negative values .
+Reads the structure data at a specified index from an array .
+Generates and loads a concrete class for a given activity context interface .
+Resolves a local URI by checking catalog entries and applying any matching URI rewrites or delegations .
+Creates a calendar date by adding a value to the base date .
+Retrieves the database session from the transaction manager, throws an exception if no transaction is in progress .
+Returns the property value for a given function instance and property name, or null if no such property exists .
+This method adds a new group to the existing groups, ensuring the group name is unique and the group structure remains a tree .
+Generates a schema mapping from a given Parquet schema .
+The code copies readers from the current catalog to a new catalog, maintaining the order of the readers .
+Retrieves a bean by its name, creates and initializes it if not found in the scope .
+Writes the provided record as a top-level message using the message writer .
+Returns the name associated with the given type ID .
+Finds the index of the dot after the last slash in a string .
+Determines the architecture type of the operating system based on the system property os .arch .
+Return chart image from session or an empty one based on the current phase of FacesContext .
+Determines if the given instance is a child class of the specified parent class .
+Returns the status as a string based on the given status value .
+Validates DirectBufferVectors and computes their total length .
+Sends data by writing content to the output stream .
+Extracts column parameters from a given row and returns them as a String array .
+Extracts chart ID from its parent in a specified sheet .
+Visits a field instruction in the given method .
+Extracts and returns a list of values from a given CSV row .
+Returns an iterator of providers for a given class using the Orient class loader .
+Generates an annotation of the specified type, ensuring all methods in the annotation type have default implementations .
+Converts a glob pattern into a regular expression string .
+Encode byte array into a base32 string using specific encoding steps .
+Adds a packet listener and associates it with a packet filter, throws an exception if the packet listener is null .
+Check if the content string has an opening HTML tag .
+Extracts the Avro schema from the record header, throws exception if it's null or empty .
+Generates a user object from cookie data if the user-agent matches the stored one .
+Retrieve value from a map and convert it to JsonObject or JsonArray if necessary .
+Returns a response with the status set to internal server error .
+Checks if the given notification source is the owner of the specified alarm .
+Writes to a WebSocket connection and sets the key's interest to read if successful .
+Update the last modified time of the servlet class and set reload to true if the new time is more recent .
+Adds an integer field with a specified name, label, and default value to the field set .
+Determines the number of days in a given month, considering leap years .
+Returns an object output stream, resetting it for reuse with the provided output stream .
+Removes an attribute with the specified key and returns its value .
+Calculates the exponential of a BigDecimal number using Taylor series expansion .
+Registers a component in the WebApp instance .
+Compares and sets the next node in the list .
+Reads a structure from an array starting at a specific index and for a certain count .
+Unlocks a resource by sending a lock token in the request header .
+Generates getter method for a field based on its class type .
+Modifies XML dataset catalog by replacing certain terms and adding geospatial coverage details .
+Formats a timecode for a specific track and counter .
+This method converts an input stream into a string and creates a symmetric key with a specified algorithm .
+Extracts the configuration element from the provided map .
+Creates a new HashSet implementation of the delegate, unless the delegate is already a HashSet .
+Execute a projection query and return the results
+Retrieve a specific property from a given profile's properties map .
+Converts IP address string to an integer value .
+Checks if the given edge is either an outgoing or incoming edge of this node .
+Generates a map of effective converters by merging default and context-specific converters .
+Copies color from one node to another or sets it to black if source node is null .
+Creates SSL server socket factory using given keystore and passphrase .
+Initialize Java compiler based on system properties and available classes .
+Handles stateless session bean by adding interceptor methods for ejbCreate and ejbRemove .
+Load and return all fonts from assets and system .
+Unpacks Grib2 data from a file, flips it if necessary, and returns the data as a float array .
+Returns the file content as a byte array, either from stored data or by reading from a temporary file .
+Stops the WeldBootstrapService and shuts down the associated container .
+Displays public index page with a random contact from the contact manager .
+Retrieves all available connectors from the ActiveMQ server and its subsystem resource .
+Evaluates a JavaScript script using the Rhino engine and handles potential exceptions .
+Retrieve the argument count for a given entry type .
+Create a matcher that matches any server web exchange .
+The method prints the string representation of Pi, grouping the digits into sets of 5 and formatting the output into lines and blocks for readability .
+Converts a value to a collection of a specified type .
+Generates the table name based on schema and case sensitivity .
+Set the concept type for the QueryConcept in the retrieval system .
+Put the given batch of data into the channel, handling any consumer or producer errors .
+Creates a negated email filter by inverting the provided email filter's search term .
+Handle the results of repository pull operations and display them if all tasks are completed and results are not empty .
+Set the icon for the specific geometry type
+Adds a double field to the object with a specified name, label, and default value .
+Builds a form command from sheet configuration and sheet, setting properties like name, visibility, and cell range references .
+Retrieves the absolute path of the mounted external storage directory .
+Retrieves the inner HTML of a document using Lagarto HTML renderer .
+Creates a BufferedImage with specified width, height, and pixel bits using DirectColorModel and DataBuffer .
+Retrieves argument names from the 'args' map, returns an empty array if 'args' is null .
+Retrieves an Integer value from a map using a given key .
+Creates a new URL from a given string specification
+Retrieves all edges of a specific class from the database, considering polymorphism .
+Swaps byte order based on the system architecture .
+Sets the user information, validating it for correct format and throwing an exception if the host is null or the format is invalid .
+Opens a NetcdfFile in memory from the specified filename .
+Extracts the contents of a given jar file to a specified directory .
+Retrieves a trimmed string at a given position or returns default value if null .
+Generates an integer by shifting and combining seven input values .
+Produces empty batches for idle runners within a specified idle time, and returns the number of processed runners .
+Returns the input value if it's within the specified min-max range, otherwise returns the min or max value .
+Checks if the provided flags are empty, considering both system and user flags .
+Parses user credentials from XML stream reader .
+Reads a catalog from a given URL, handles potential errors, and logs a debug message if the file is not found .
+Maps labels from a list to their corresponding indices, while logging any duplicates or unexpected labels .
+Generates a rectangle with rounded floating point boundaries using the tile width, height, bounding box, and the bounding box section .
+Removes the specified slot key from running slots, updates its timestamp and state, and sets all coarser slots as dirty for the given slot key .
+Invokes initialization methods on a bean according to the specified invocation strategy .
+Adds an iterator to a composite iterator, ensuring it's not in use and not already added .
+Determines if a candidate is unanimously accepted based on log position in a cluster of members .
+Retrieve a specific annotation from a class, including those from its interfaces .
+Adds a new entry with a name, symbol, and definition to the system .
+Drops the key index from a specified element class in the graph database .
+The method validates XML view by checking each tag library in the page, and throws an error if any validation message is found .
+Starts a vault session with a specified alias and initializes the security vault .
+Calculates the surplus number of queued tasks in the current ForkJoinPool .
+Converts various types of input values (Blob, File, Collection, Iterable, CharSequence) into a byte array .
+Opens a Grib collection from a data file using specified configuration and logging parameters .
+Handles the end of an activity, checks if request callback is needed, and cancels timer task if no activities are left .
+Updates the state of the confirmation button based on the validity of the selected file .
+Initializes the servlet, loads properties from a specified resource, and stores them under a given variable name in the application scope .
+Retrieves a collection of unique supported codec tags .
+Checks if a child class is a subtype of a parent class .
+Sets a bit at a specific index and returns true if successful, false if another thread has already set the bit .
+Sets default properties for connection handling, timeouts, and user agent in a synchronized manner .
+Returns a new Key object from a given raw Google Cloud datastore key .
+Adds an empty row to the layout components .
+Sets the value of the distanzZu property .
+Parses the model by checking file extensions and initializing resource set .
+This method adds a parameter to a NetcdfFile with specified attributes and dimensions .
+Reads a string from a specified file path .
+Chooses the best property to decide on based on the largest information gain from the given examples and input properties .
+Attempts to subscribe to a publisher using a mapper function, handling any exceptions and null values .
+Converts the given object into a JSON string .
+Appends logging event to SQLite database and returns the ID of the inserted record .
+Starts the backend of JoddJoy, runs a consumer with it, prints start and end lines, and manages transactions .
+Populates generated keys into the given entity from the database .
+Sets the content type, resolves it, and enables or disables buffering based on the content type's mime type and encoding .
+Checks if a 4D point is infinitely distant within a given tolerance .
+Converts ByteBuffer into a string of specified length .
+Create a JestClient with specified URI and custom configurations .
+Sends a 'Not Modified' HTTP response and closes the connection immediately after sending the message .
+Skips a specified number of bytes in the input stream .
+Adjusts longitude connection by adding or subtracting 360 to avoid large jumps .
+Creates a snapshot of stream positions for different types of counters in a map .
+Registers a table with a given name and associates it with a cursor wrapper in the GeoPackage database .
+Filters the list of completion proposals based on the provided prefix .
+Retrieves the occurrences of the candidate answer variant in the Java Common Analysis Structure (JCAS) type system .
+Puts a byte array into the ByteVector starting from a specific offset for a certain length .
+Creates Properties object from a given string data .
+Merges a given map into the existing rows mapping .
+Executes a series of random operations and prints the results .
+Create a prepared statement using a connection, SQL query, and an iterator of parameters, setting each parameter in the order they appear .
+Returns the single template from the Kubernetes resources list or null if it doesn't exist .
+Retrieves the specified schema from the known schemata, refreshes cache if not found .
+Checks if there are no SBB entities attached to a node .
+Calculate the logarithm of a given base for an array, with an option to duplicate the array .
+Retrieve the getter of the property descriptor if it exists, considering whether it's declared .
+Converts a 4-sided polygon to a quadrilateral .
+Checks if property name equals the rule
+Sets reference to the next row in the sheet, and optionally updates the address .
+Writes namespace declarations by iterating over declared prefixes and their corresponding URIs .
+Handles switching between partitioned and non-partitioned states for tables .
+Create a 1D array of a specific data type and length .
+Creates a catalog based on the match and request path, or returns null if the state is not ready or an error occurs .
+Extracts parameter values from target objects, excluding the first one .
+The method constructs an email filter based on the recipient's address .
+Queries for a style row using a style mapping row .
+Extracts the next token from a file, ignoring whitespace and comments .
+Returns the blocking mode corresponding to the text value .
+Checks if a class is a subtype of a specified parent class .
+Sets the overlap percentage with a limit between 0 and 50% .
+Retrieves the trimmed class name of a servlet endpoint .
+Sets a value at a specific index in the data list .
+Converts a duration string into nanoseconds .
+Creates a belief set with a specific name and fields in the belief base .
+Obtains an IMAP SSL store using the provided session and authentication details .
+Returns the selected directory or cancels the chooser if no directory is selected .
+Stops the server and closes all active connections .
+Compiles a converter by setting the context and using a map of converters on the top node .
+This method displays an error message in Ajax format when an exception occurs .
+Decorates a resource post-processor with pre and post processing callbacks .
+Returns the content length or -1 if it doesn't exist .
+Copies incoming arcs from the old state to the new state .
+Adds all elements from a collection to the current collection .
+Converts a scalar value to double, handling different data types .
+Resolves system ID to a classpath resource and returns it as an InputSource .
+The code converts a key into an enum value if it exists in the underlying map .
+Creates a paged record filter with a specified start position and page size .
+Generates a flattened version of the input map .
+Adds a line number to an array, expanding the array if necessary .
+Extracts the local name of a given element by getting the tag name and trimming any preceding space .
+Retrieve table icons based on feature table name .
+Sets the value of the industrie property .
+Processes a dataset and writes its corresponding entry to a specified XML file .
+End the current activity and trigger an activity end event if the activity context is in debug mode .
+Finds the common prefix among a set of strings .
+Returns the projection type for the given grid definition record based on its name .
+Converts annotation data to validator metadata .
+Stores a given attribute value in a class-specific map, creating a new map if one doesn't exist for the class .
+Executes batch of operations, updates metrics, and handles exceptions .
+Applies a pipeline to the web context of the HTTP request and response, handling any exceptions by sending an internal server error .
+Fetches data from a specified path and handles authorization, with error handling for null paths .
+Saves the file with progress monitoring .
+Replaces all occurrences of a specific string in the source string with a replacement string .
+Retrieves the index of the given element from the value map, returns zero if the element is not found .
+Create a thread-safe or non-thread-safe map and record the current system time .
+Parse the JSON string into a list of AppInfo objects .
+Determines if the first file should be replaced by the second based on their versions .
+Retrieve form fields based on form name and user's login status
+Sets the value of the BENUTZER property .
+Adds body data to an email, including content and attachments, using a multipart mime message .
+Handles DAP2Exception by logging the error, setting the appropriate HTTP response status, and sending the error details back to the client .
+Sends data from the source input stream to the output stream, with a buffer size of 4096 bytes .
+Parse DMR document and process its attributes .
+Serializes a throwable object into JSON format .
+Sets the Paint object for the polygon and updates the polygon's stroke width accordingly .
+Returns the object back to the pool .
+Update array for a specific variable name in the ComputationGraph network
+Iterates over top variables in a dataset and processes those referenced by the current expression .
+Initializes list events and processes changes such as updates, replacements, additions, and removals .
+Check if relative catalogs are allowed in the resource properties .
+Validates the unbiased exponent of a double in IEEE754 format .
+Reads configuration from a file, supporting JSON, YAML, YML, and Properties formats .
+Generates the next product version by incrementing the last segment of the current version .
+Starts the thread if it's not already running or used, and sets it as a daemon thread .
+Creates a stop event record for a pipeline with specified stop reason and pipeline details .
+Executes a regular expression pattern on a given data string with specified execution flags .
+Generates a database schema string by iterating over table columns, excluding one-to-many relationships, and formatting it with table name and id column .
+Apply a response handler function to the result of a send operation .
+Adds a unit to the set by its name, plural, and symbol, and throws an exception if the unit name is null .
+Executes a method on a target object, changing the class loader context temporarily during invocation .
+Appends a byte to the buffer, ensuring capacity and updating the count .
+Writes data in CDL format, handling different data types and their specific formatting requirements .
+Sets the value of the metadata property in the Feed .
+Checks if at least one of the aggregated metrics (gauges, counters, timers, sets) is present .
+Shortens the input string to a specified length, appending a suffix if the string is shortened .
+Adds a listener to the specified event in the Emitter object .
+Establishes a connection if not already connected, throws an exception if the specified file does not exist .
+Adds a child to the tree and updates the parent-child relationship .
+Initializes the connection provider, detects the database server, configures it with DbOomConfig, and then closes the connection .
+Converts the given element to a string representation .
+Queries manual feature results within a specified geometric envelope .
+Creates a FilterGraph instance if possible, returns null otherwise .
+Locate and return InputStream for a given URI using context folders .
+Retrieves the notification category from the portlet request preferences .
+Creates a JDBC record writer based on the multi-row operation flag, using provided connection, schema, table, and other parameters .
+Returns the value of the Ausstattungsqualitaet property, defaults to KEINE_ANGABE if null .
+Checks if the names of two given objects are identical .
+This method stops the PetiteContainer and logs the stop action .
+Finds the nearest weather forecast for a given date and time .
+Creates a directional LongCounter wrapper, either incrementing or non-incrementing, based on the provided boolean value .
+Opens a specified mail folder for reading and writing, or read-only if the former fails .
+Returns a new Name object with a sublist of components up to a given index .
+Decodes a string by removing all spaces .
+The code ensures that the provided object is not null, otherwise it throws a NullPointerException with a specified message .
+Calculate the number of set bits in the value .
+The method synchronizes the database schema with the registered entities in the database .
+The code executes a task, handles any exceptions thrown during execution, and updates the task's state accordingly .
+This method checks if the profile is writable and resumes the transaction, otherwise throws an InvalidStateException .
+Resolve system identifier by checking catalog entries and returning the resolved system or result from subordinate catalogs .
+Adds data variables from a table to a list, excluding non-data variables .
+Finds and returns methods matching given names and descriptors from a list of methods .
+Finds and returns the field descriptor for a given field name from the class or its superclasses .
+Retrieves metadata names from GeoPackage that match or don't match a specified pattern, sorted by a given column .
+Create an Element with a specified name using the document associated with the current thread .
+Determines appropriate annotation strategy based on the provided annotation's type .
+Attempts to retrieve a parsed URL, returns null if not found .
+Sets the value of the 'moeb' property .
+Checks if the specified pod is ready by verifying its running status and conditions .
+Applies an action to the rule and returns the updated rule builder .
+Compares two objects using multiple comparators, returns the result of the first non-zero comparison, or zero if all comparisons are equal .
+Resolves attribute from model context and converts it to string .
+Adds member values to a given annotation .
+Retrieves a specific variable from a given row and name, throwing an exception if not found .
+Performs depth-first search on a graph, visiting each vertex and its outgoing edges .
+Sets date and cache headers for the HTTP response and file to cache .
+Updates the service ticket of the field value and posts the updated field value as a JSON .
+Creates a new arc with specified type, cost, and transition states .
+Writes a raw integer of specified type and data into bytes .
+Generates a unique key for method signatures using access, method name, description, and class name .
+Generates list of Parquet input splits based on row group blocks and block locations .
+Finds and returns the vertex with the specified data using the provided comparator .
+Adds a new declaration to the group, checking for name conflicts and handling different types of declarations .
+Determine if the HTTP request requires authentication .
+Refreshes the cached cell in a table if it's a formula cell type .
+Creates an IOContainer instance from configuration settings .
+Creates a structure with dimensions and variables for circle attributes in a netCDF file .
+Sets a specific field value in the activity context .
+Creates a composite validator with a list of initialized field validators .
+Writes a list of strings to a JsonGenerator under a specified field name .
+Attaches a timer to a node if it doesn't already exist .
+Creates a complex number array from given real and imaginary components .
+Adds an attribute to a specified group, throws an exception if the group is immutable .
+Close the cache and file, adjusting file length if necessary .
+Obtain a stream of specific type of actions from the dispatcher .
+Returns a stream of child elements of a given parent element .
+Checks if a specific group is a target group .
+Calculates the total distance to the goal from all cells .
+Retrieves a JSONResult at a specified index from a JSONArray or JSONObject .
+Associates a given array with a specific variable and updates its shape if it already exists .
+Sets the root directory and creates it if it doesn't exist .
+Returns a set of entries that start with a specific basename from a parent set .
+The method checks and consumes a token of a specific kind, and throws an exception if the token cannot be consumed .
+Reads and enriches a file fragment based on platform mode, API versions, and file name pattern matching .
+Resolves the runtime name from the given operation context and path element .
+Converts the given exception to a string representation of its stack trace .
+Refreshes cached cells in a specified row of a table .
+Converts a 2D line segment to a general 2D line .
+Retrieves the property value of an object, with an option to ignore non-existing properties .
+Adds the provided listener to the corresponding type of Braintree event .
+Reads dataset source element attributes, result service, dataset namer, and dataset filter from XML and creates a DatasetSource object .
+Creates an uninitialized binding for a given key, handling different types and annotations like ImplementedBy and ProvidedBy, or defaults to a constructor binding .
+Clones an object via serialization and deserialization, then closes the streams .
+Sets the parameters for a specified service operation .
+Removes a URL context factory based on the provided scheme .
+Sets the index of the array, expanding, filling, or truncating it as necessary .
+Cleans cache by deleting expired files and empty directories from a specified directory .
+Automatically configures the logger context by searching for configuration files in system properties and assets .
+Converts the given object to a map, ignoring specified properties .
+Removes attribute with given name, ignoring case sensitivity .
+Calculates the azimuth angle based on the message type and provider .
+Converts a bitmap into bytes and sets it as data .
+Retrieves the string value associated with the specified key from the map .
+Sets the start date and recalculates the duration and end date if necessary .
+Retrieve a double value from a DapVariable at a specified offset .
+Converts a model node value to a specified enum type .
+Generates a random string of letters with a specified length .
+The method writes the count value to a buffer and outputs it, also prints the count if in debug mode .
+Prints all routes and their corresponding aliases in the web application, sorted by action path and method .
+Pads the given string on the left to the desired length with the specified padding string .
+Downgrades the document version and removes unsupported elements, logging any errors encountered .
+Fetches meteorological data for a specific longitude, latitude, and date .
+Creates a new stream in Amazon Kinesis if it doesn't already exist .
+Removes the controller's name from the naming store and logs the unbinding process .
+Resolves the doctype by checking system and public identifiers, and returns the resolved doctype or looks in subordinate catalogs if not found .
+Retrieves the keyword arguments for a given keyword from the library .
+Extract the encoding type from an XML string
+Compares two bookmarks based on their URL and new window status .
+Applies a condition to each element in the complex array and returns true if any element meets the condition .
+Writes database information and table helpers to an index file .
+Acquires an InputStream from a data source or from existing data .
+Loads an agent class, sets its goals and plans, creates instances of the agent, and stores it in the catalog .
+Builds a map of attributes from a command line string .
+Add a child node with a specific name if it doesn't exist .
+Retrieves a local parameter from the parameter table using the given id .
+Stops the task and returns true if successful, otherwise logs an error and returns false .
+Visits executable declaration, accepts pre and post conditions, and processes formal type parameters and parameters .
+Retrieves the input stream from a specified system ID relative to a base URL .
+Generates a list of target files either directly or using a specified producer .
+Reads DataDDS from server with specified constraint expression, synchronizing the data retrieval process .
+Adds a parameter to the coordinate transform if the variable exists in the NetcdfFile .
+Maps an existing CnC file if it exists and is not empty .
+Sets the value of the lastenaufzug property .
+Creates a new SimpleAggregator instance and associates it with a data provider .
+Sets the angle and updates the selected position, triggering a change listener if one exists .
+Writes the specified bytes from a character array starting from the offset to the length provided .
+Create a converter from one unit to another .
+The method reads a specified number of short values from an input stream and stores them in an array starting from a given index .
+Retrieves a value from ThreddsConfig using a key or an alternate key, returns default value if both are null .
+Encodes a picture into a frame, adjusting slice type and frame number accordingly .
+Sets member variables, throws exception if object is immutable .
+Generates a subset of time offset axis based on provided parameters and reference date .
+Retrieve the sample frequency for a given integer within a specified range .
+The code calculates the Gamma function of a given BigDecimal number, adjusting for negative inputs and inputs greater than 1 .5, and applying Abramowitz-Stegun 6 .1 .33 for other cases .
+Set the dependency label for a token in the natural language processing type system .
+This method converts a service name to a port or returns an empty string if the conversion is not possible .
+Registers a type converter for a specific class type .
+Checks if the content length exceeds the buffer size or if the body is fully written, and if so, commits the response .
+Creates an internal index with the provided definition, cluster index name, and clusters to index, with an option to rebuild and track progress .
+Generates a service name for a bean with a specified state .
+Adds all elements from a given JsonArray to the current JsonArray .
+Adds a property change listener to the list .
+Stores the context path in the ServletContext under the given variable name .
+Finds and returns the best match for a given path in a TreeMap, or null if no match is found .
+Find the prime factors of a given number .
+This method changes the type of a property in the database schema, ensuring the new type is castable from the old one, and throws an exception if the type change is not allowed .
+Sets the value of the Jahrgang property in the Energiepass class .
+Sends data from an input stream to an output stream in chunks until all data is sent or an exception occurs .
+Generates a CDL string representation of an object using specified formatting rules .
+Display the compiled query using a positional term walker .
+Returns image name based on the project's runtime mode, with a fallback configuration if not specified .
+Triggers roster change events for added, updated, or deleted entries .
+The function raises a BigDecimal number to a specified power, adjusting precision based on the input's relative error .
+Allocates a counter in Aeron with a specific service ID and updates the temporary buffer with service details .
+Initializes and runs EmrBinding with provided arguments, handles exceptions and ensures closure .
+Inserts an element into the queue within a specified timeout, returning true if successful, and handles interruptions .
+Raises a complex number to the power of another complex number
+Adding root package of a class with a specific mapping .
+Reads double values from an input stream and stores them in an array starting from a specified index .
+Calculates and returns a delay in the specified time unit, with a variance percentage applied to the base delay .
+Adds a reconnection task with a specified URL to the task list .
+Checks if the specified resource adapter targets an external pooled connection factory .
+Determines the line paint style for a given feature style, defaulting to a predefined line paint if none is found .
+Creates a new DateRangeType instance, ensuring the 'from' date is less or equal to 'to' date, and the type name doesn't already exist or is identical to an existing one .
+Updates the playlist and track information .
+Set the value of a specified field by its name .
+Executes a task if not already in progress, otherwise throws an exception indicating a concurrent run .
+Resolves provider definitions for a given class type and name by inspecting its methods .
+Reports a fatal error with a specific message ID and argument .
+Sets the value of the 'anbieter' property in the 'ImmobilienTransferTyp' class .
+Serializes a schema to HDFS, creating necessary directories and handling potential exceptions .
+Writes an array to an output stream, handling both primitive and multi-dimensional arrays .
+Determines the next state based on the given action name, throws an exception if no transition for the action exists .
+Calculates the total cost of transforming source arguments to match the parameters of a given executable .
+Notify all listeners about the progress of source loading .
+Invokes turbo filters in the logger context with a given marker and level .
+Retrieve form fields based on form type ID and user's edit permissions
+Creates a basic authentication scheme using provided username and password .
+Calculates the square of the norm of a vector .
+Returns true if the given character matches any character in the provided sequence .
+The method logs the state details for debugging purposes, including state number, flag, chain status, and arc information .
+Invoke the HideAction to toggle the visibility of a notification entry based on its current state .
+Sorts the given array in descending order and returns the maximum value .
+Generates a method to fetch a specific field by its name from an array, and throws an exception if the field name is unknown .
+Resolve argument from security context in a reactive manner .
+Visits the label and line numbers of a method using a MethodVisitor .
+Retrieves all dimensions from the list .
+Logs information with a specific format and address, defaulting to UNKNOWN-ADDR if no address is provided .
+Opens a NetcdfFile in memory using the provided name and data .
+Retrieve a bean of the specified type by resolving its name .
+Checks if a variable or its original version has data in the structure members .
+Converts the first character of a string to lowercase .
+Finds and returns the maximum value among a set of long values .
+The code downgrades the version of an OpenImmoDocument and removes or downgrades certain elements if they are unsupported in the previous version .
+Check if the given group is a parent group .
+Retrieves styles and icons for a specific feature from a feature table and encapsulates them into a FeatureStyles object .
+Sets the parser to lazy mode, altering the map and list suppliers accordingly .
+Removes temporary files and pauses execution to recover after each deletion .
+Retrieves or sets shared dimension in a group based on the provided dimension .
+Converts a general conic section to a 3x3 matrix representation .
+Opens a feature dataset from a specified location, handling different types of datasets and potential errors .
+Set email filter flags and concatenate search term .
+Check if the real packet size exceeds the maximum packet size for a single frame translation .
+The method sets a specific control name and validates that it cannot be empty .
+Searches for a group with the specified name within the parent group and its subgroups .
+Parses properties from a string and returns them as an array .
+Opens a file for writing using the provided random access file, Netcdf file, and cancel task .
+Writes a 24-bit integer to a byte array at a specified offset .
+Reads an array from a variable or original variable, or throws an exception if no data source is available .
+Notify listeners and shutdown connection .
+Initializes host collectors by creating UnifiedGarbageCollectorThreads and attaching them to the default device .
+Creates a copy of the Lambert Conformal projection with the same parameters and properties .
+Retrieves new record entries by cluster IDs .
+Merge two ImageApiProfile objects, combining their features, formats, qualities, and setting the minimum values for maxWidth, maxHeight, and maxArea .
+Add all cookies from the map to the HTTP request .
+Adds a packet sending listener and associates it with a specific packet filter .
+This method overrides the getResource function to find a resource either from the parent class loader or the current class loader based on the resource loading strategy .
+Creates an action request with specified parameters .
+Observes and logs health check procedures from annotated resources .
+Adds a child vertex if it's not null and triggers a property change event for child addition .
+The method checks if a class should be skipped based on its name or parent class .
+The method getConfigProperties initializes configProperties if null, and adds any additionalConfigProperties if they exist .
+Generates a relative path from the base path to the target path .
+Shuts down the component by setting a shutdown flag and waiting for all invocations to complete .
+Calculates the character count of a 32-bit integer value .
+Determines the character set from the Byte Order Mark (BOM) of the given byte data .
+Sets the value of the phoneInfo property .
+Creates a unique file in the target folder with a specific mime type .
+Monitors connection pools, filters connections based on service status, and manages connections to maintain a threshold .
+Removes a type from the stack based on the descriptor's first character .
+Converts error messages into a JSON format in the specified language .
+Invokes a static method with given parameters
+Searches for a service by its name in the list of services, including nested services in compound service types .
+Resolves the result path string and returns the alias of the result .
+Updates a property of an entity in the database and returns the updated entity .
+Summary: Override method to throw a formatted fatal error during SAX parsing .
+Calculate the maximum width among all rows .
+Throws an exception if the data type of the operation's input is integer, as operations on integer data type are not yet supported .
+Determines the compression mode based on the file name extension .
+Detects and returns the type of 'In' or 'Out' annotation from the given array, else returns null .
+Calculate the power of the base raised to the exponent under modulo m .
+Retrieves a class file as an input stream using the class's name and class loader .
+Checks if the given context has any status listeners .
+Count the number of geopackages in a given table within a bounding box .
+Deletes table mappings for a given feature table if the mapping DAO and feature contents ID are not null .
+Sets boolean value for a specific SQL parameter .
+Loads data from a stream into a map, ensuring the key and type match the expected values .
+Checks if the given key exists in the hash table .
+This function retrieves the value from a specific tile row and coordinates (x, y) in a gridded tile .
+Read a string with a maximum length from a byte array, handling encoding .
+Creates a 3D pie chart using the provided chart data .
+Calculates the number of projected components in an array, considering constraints .
+Adds a parameter table to the standard lookup and updates the starting index .
+Joins array elements into a string with a specified separator .
+Create an instance of Either with a right value of a specified type .
+Converts the given properties map to a JSON string .

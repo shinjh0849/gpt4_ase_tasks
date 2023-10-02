@@ -1,0 +1,812 @@
+The Sign function sets the secret of the rl10Authenticator to the header of the http request .
+The function GetTideContextPolicy retrieves the policy for a given organization, repository, and branch, combining required and optional contexts from options and Prow Jobs, and potentially from branch protection settings .
+The function DialEtcdGRPCServer in the Member struct establishes a secure or insecure connection to the Etcd GRPC server based on the scheme of the advertised client URLs .
+Decode HTML entities in a string
+The function ForEachObject in the Process struct iterates over each object in the process's pages, performing a specified function on each object .
+The function MarkComplete in the Set struct marks all unseen keys as gone, removes them from the firstSeen map, logs any remaining swept keys, and returns the count of swept keys .
+The function DumpProfile writes coverage profiles into a writer, returning an error if no profiles are provided or if there's an issue during writing .
+The function newImageSource creates a new image source from a given image reference, returning an error if any issues occur during the process .
+The function Servers checks if the current raft instance is a leader and returns its configuration servers, otherwise it returns an error .
+The function NewTransactionResultExt initializes a new transaction result with a given value and returns any potential error .
+The function NewAuthenticator initializes a new Authenticator by setting up tokens and clients based on the provided policy, and linking it to a data store .
+The function GetNew in PeerList selects a new peer, avoiding previously selected ones if possible, and returns an error if no new peers are available .
+The Set function in Tag sets a span with a specific key and value .
+Associate a new context with the given HTTP request .
+The function BindUnit in the ServiceInstance struct binds a unit to a service instance and updates the service instance's data in the database .
+The function ListTag in APIClient lists all tags, including associated objects, and handles any errors .
+The function calculates the maximum value within the inclusive ranges and blocks .
+ParseStrictDDL parses the given SQL string strictly and returns a Statement or an error if parsing fails .
+The Camel function returns a camelCase version of the given string .
+The function ErrorToStatus converts different types of errors to corresponding HTTP status codes .
+The function roleGrantPermissionCommandFunc grants a specified permission to a role; it exits with an error if the permission type is invalid or if the role cannot be granted the permission .
+The function invalidLength checks if the sum of offset and length is either less than offset or greater than the length of the slice .
+The function checkpointScheduledLeases in the lessor struct checks and schedules leases, limiting the rate and returning if the batch size is reached .
+The Like function appends a 'Like' query condition to the existing condition .
+The function SetAccount sets the account for a given ledger key .
+Get retrieves the value of the specified cookie name .
+The function ArmForSwitch in CreateAccountResult returns a string and a boolean based on the switch case for CreateAccountResultCode . If the case is CreateAccountSuccess, it returns an empty string and true, otherwise it returns an empty string and true by default .
+FindByLabel in selectable returns a new selection based on the provided label text .
+The function NewAmazonClientFromEnv creates a new Amazon client using environment variables for configuration .
+The Hash method in dbHashTree class performs canonicalization in a batch transaction .
+SaveStruct function saves the structure of the source interface and returns an array of fields and any error encountered .
+The function NewOutgoingChatAction creates a new outgoing chat action for a specified recipient and action in the Telegram Bot API .
+The Add function appends a value to a key in the Flash data, or creates a new key-value pair if the key doesn't exist .
+The function NewOAuth2Controller creates a new OAuth2Controller with given application manager and web configuration .
+The function setQueryParam sets a specific query parameter to a given value in the provided URI and returns the updated URI .
+The function updates the storage pool volume in a cluster, including its configuration and description .
+The Do function in StopWorkerParams executes the StopWorker command in the given context .
+The WithRange function sets the end range of a comparison operation .
+ResetDefinitions resets the definitions in the document to their original state .
+The function MutateSetOptions sets the options for a signer mutation in the Stellar network .
+The function 'runFSM' in the 'Raft' struct manages the Finite State Machine (FSM) by handling commits, restoring snapshots, and creating new snapshots .
+The function Leader in Election checks for the current leader in the session, returning an error if no leader is elected .
+The FlushJob function sends a request to flush jobs related to specific commits and pipelines, and handles the received job information .
+The LoadModule function checks if a module path exists and if not, it runs a command to load the module, returning any error encountered .
+The function PayWith sets up a payment with a specified asset and maximum amount .
+The function withStateRLock in Connection struct executes a function within a read-locked state and returns any error occurred .
+The Disconnect function in the EventListener struct locks the event listeners, removes the current listener from the global list, and then disconnects the handler .
+The Header function returns a string by executing a template with BuildLogsView as input .
+The function 'Devices' in the 'Cluster' struct retrieves the devices associated with a given project and name, distinguishing between profile and non-profile types .
+Create a context with a specified key for outgoing metadata .
+The Sorted function in the DAG structure returns a sorted list of parent identifiers .
+CreatePassiveOffer function generates a passive offer with a specified rate and amount .
+The function sets the state of the Raft instance and observes the state if it has changed .
+Summary: Set maximum virtual time task starvation count in the virtual time policy parameters .
+The function GetGroup in the Domain struct retrieves a group by its name, decodes its members from XML, and returns the group with its associated accounts .
+The function hasConflict in oracle checks if there's a conflict in the transaction by comparing the commit timestamp with the read timestamp .
+The function AddRecord in CSVReport adds a new record with a timestamp, elapsed time, and label .
+The Read function reads a VMXFile and unmarshals it into a VirtualMachine model .
+The function newStructFLS returns a FieldLoadSaver for the struct pointer p, using the codec obtained from the type of p .
+The function WithNoDisplayUpdates sets the noDisplayUpdates field in the BeginFrameParams structure .
+The function VerifyMessageProviderRaw in the Pact struct sets up a message wrapper API, verifies the provider, and returns the verification response or any error encountered .
+The function GetResources retrieves all resources from storage, converts items to resources, sorts them by update time, and returns the sorted resources .
+Fetches entries from memory storage within a given range, returning an error if entries are compacted or unavailable .
+The function deleteConfig removes entries from a specified database table using the provided keys .
+The UnixSocket function creates a new listener for a Unix socket at the specified address .
+The Methods function returns a sorted list of methods for a given service .
+The function EmbedConfig in Etcd struct initializes and returns an embedded configuration with various parameters like URLs, TLS info, cluster info, and logging details .
+The function sanitizeValue returns a sanitized value, considering the type and value, with a workaround for a specific reflect bug .
+The function NewLockRacerCommand creates a new cobra command and sets the total client connections flag to 10 .
+The function maps different types of errors to their corresponding HTTP status codes .
+The function updateMetrics continuously updates disk usage metrics at specified intervals .
+The function CheckoutNewBranch creates a new branch in the repository .
+The function containerDeviceAdd adds a new device to the specified container in the LXD server .
+The function ListTeams in FakeClient returns a list of Github teams for a given organization .
+WriteStringToFile writes a given text to a specified file path .
+The function 'Stem' converts a word to its base form, with options to ignore stemming for small words and stop words .
+The function Do in ClearDeviceMetricsOverrideParams executes the command to clear device metrics override .
+The UnmarshalJSON function in MapMatcher converts JSON data into a map of string matchers .
+The function 'output' executes a command with arguments and returns its output after trimming any leading or trailing spaces .
+Triggers an incident with a given description and key .
+The function newGCSJobSource creates a new GCS job source by parsing the source URL and extracting the build ID and job name .
+The function 'sync' in 'IssueCreator' checks for existing issues with the same ID, if none are found it creates a new issue, returning true if successful .
+SetTimeout sets the timeout duration for the PatchAppsAppParams operation .
+SetAddressHeader sets the address and name in the message header .
+NewSTM creates a new software transactional memory instance with the provided client, apply function, and options, and runs it .
+NewWatchCommand initializes a new cobra command with specific flags .
+The function Issues in TriageFiler reads HTTP data, loads clusters, selects top clusters, and returns them as issues .
+MustNewBaseFee returns the new base fee from the ledger upgrade, and panics if it fails .
+The function Do in SetVariableValueParams executes the command to set a variable's value .
+The ApplicationLocator function returns a new ApplicationLocator with the provided href and API .
+Creates a new HTTP handler that logs request details and response status using the provided logger .
+The NetworkInterfaceLocator function returns a new network interface locator with a specified href .
+The function yamlBytesStripNulls removes all null values from the byte array of yamlBytes .
+Summary: The function LeftF returns a function that trims a string from the left up to a specified length .
+The function WrapHTTPHandlerFunc wraps an http .HandlerFunc into a custom HandlerFunc, allowing it to be used with a context .
+Creates a new Bool instance with given boolean value and validity status .
+AppUri function generates the application URI using the provided application name and path .
+The Get method in Role struct retrieves a Checker based on the provided name .
+The function ValidEnum checks if a given integer is a valid enumeration value for BucketEntryType .
+MustGetScpLedgerSeq retrieves the ScpLedgerSeq value from a StellarMessage, and panics if the retrieval is unsuccessful .
+The function AskString prompts a question, validates the answer, and returns the answer if it passes validation or the default answer if not .
+ChompRight removes the specified suffix from a string if it exists .
+The function objField returns the field name of a given object based on its offset within the process memory .
+The FrameRangePadded method in FileSequence returns a padded frame range string if the frame set exists .
+Source returns the name and offset of the mapping .
+The function JSONSpec reads a JSON document from a given path and returns its analyzed representation .
+The function startStream initializes an XML decoder, sends an XML stream to the server, and decodes the server's response to determine authentication options .
+NewHTTPError creates a new HTTP error with a specified code and formatted error message .
+DeleteRef method appends the given reference to the RefsDeleted list in the FakeClient instance .
+The function 'projectChange' updates the project configuration in the database and validates it, handling any changes in features .
+The function doContainersGetFromNode retrieves containers from a specified node within a project, with a timeout of 30 seconds .
+The function Gain modifies the data in the audio buffer by multiplying it with a given multiplier .
+The function CreateStatus in FakeClient creates or updates a GitHub status for a specific SHA, storing it in CreatedStatuses map .
+The function GetChangeTrustOp in OperationBody returns a ChangeTrustOp if the operation type matches, otherwise it returns false .
+The function Errorln in Logger logs error messages with a specific format .
+The function Do in RemoveBreakpointParams executes the command to remove a breakpoint .
+The EditMode function checks if the ActionBar is in edit mode .
+The function AndScalar applies a scalar AND operation to a source image and stores the result in a destination image .
+NewProwJobWithAnnotation creates a new ProwJob with specified specifications, labels, and annotations .
+The function Fuzz modifies the fields of a given struct by setting them with random values .
+The function returns a formatted string representation of an Error object, including its severity, name, and detail .
+The function refresh extends the lease expiry time by a specified duration .
+The function WithFunctions adds a map of functions to the Options object .
+TimeDifference returns the human-readable duration between two timestamps
+The function GetJobLog retrieves the logs for a specific job and ID, supporting both Kubernetes and external agents .
+The function EventuallyWithOffset returns an asynchronous assertion with a specified offset, timeout interval, and polling interval .
+AccessToken retrieves the access token and its expiry time for the given scopes .
+The function rewrite modifies the manifest file, updating its creations and deletions after closing the file and performing a rewrite operation .
+The function UnmarshalBinaryBare decodes binary data into a given pointer, checking for registered concrete and handling errors .
+The function Points in Box2D struct returns an array of 2D points derived from the box's corners .
+The function 'run' in the 'Raft' struct manages the state of the Raft instance, transitioning between follower, candidate, and leader states, and handles shutdown requests .
+The Remove function in the Load struct deletes a symbol from the symbols map if it exists and sets the updated flag to true .
+The Valid function checks if the current ConcatIterator is not nil and valid .
+The function buildImage builds a docker image from a specified context directory and dockerfile, and tags it with the provided repository and tag .
+Decode reads data from the reader into the buffer and updates the snapshot's sequence number .
+The function Do in SetDiscoverTargetsParams executes the SetDiscoverTargets command in the given context .
+The function CommitAndStop commits the batch transaction and then stops it .
+Lists attached CD-ROMs for a specific server in a data center .
+Summary: AddRawJob adds a new job to the ConcoursePipeline's job list .
+The function StoragePoolCreate in the Cluster struct creates a new storage pool with the given name, description, driver, and configuration, and returns the ID of the newly created pool .
+The function Open opens a SQLite database located in the specified directory .
+The function AddModuleLevel adds a level to the backend module if it doesn't already exist .
+EncodeJson encodes the given value into JSON format with indentation .
+The function GetConnection retrieves an active connection from a peer or establishes a new one if none exists .
+The function NewClient initializes a new Client with git, github clients, and various configuration functions .
+The function ValidateGitCloneURL validates the provided URL using the git client's validator and checks if it's a 'clone' type URL .
+The Delete function removes a backup from a specified container .
+UnmarshalText converts byte array to string and checks if it's not empty .
+The function StorageVolumeConfigAdd adds configuration for a specific storage volume to the database .
+The function UpdateIPBlock updates the properties of an IP block in the client .
+The FileName method retrieves the file name from the FileResponse headers, or returns an empty string if not found or an error occurs .
+The function handleNonCallReq in Relayer handles non-call requests by determining the frame type, checking if the call is finished, and deciding the destination based on the request frame . It also handles errors and finishes relay items if necessary .
+The function isInputDone in workManager returns true if both inDirs and inSeqs are nil .
+The Concat function appends the DeltaJob from another Result to the current Result's DeltaJob .
+The function RetryClusterClient creates a new cluster client with retry capabilities .
+The Debug method in Logger logs debug level messages .
+The function EmitString in the MockKeyValue struct sets the key and value, and determines the type of the value .
+Summary: SafeUnmarshal safely unmarshals byte data into the provided destination interface .
+The function Create generates a token by making a request to create a channel with a given client ID .
+The function HasExtension in ProtocolLXD checks if the specified extension is present in the server's API extensions .
+The function Gossip in Router returns gossip data including peers and their updates .
+The function BeginningOfHour in Now struct returns the time at the start of the current hour .
+The function MakeCommand creates a new cobra command with specific flags and run functionality .
+Checks if a string is in lowercase .
+The function DeleteRange in InmemStore deletes a range of logs and adjusts the low and high index accordingly .
+EndOfQuarter returns the end of the current quarter for a given time .
+The function 'url' generates a URL for a specific path in a bucket, considering version parameters and path style addressing .
+The function ProfileContainersGet retrieves the names of containers associated with a specific project and profile in a cluster .
+The function samlRequestTimeout returns the timeout value from the schemeData map .
+The function setSlice sets a slice to the given values, truncating it if necessary and handling pointer elements and text unmarshaler types .
+The function WithPrintBackground sets the print background parameter in the PrintToPDFParams structure .
+The function 'Token' in 'OAuth2Controller' validates the grant type and code from the request URL, decodes the OAuth2 code, checks the expiration, and generates a new JWT token and refresh token if not expired .
+The function Duration sets a duration value for a specific environment flag .
+The function Message in the Record struct returns a message string, redacting arguments that implement the Redactor interface and formatting the message based on provided arguments .
+Retrieves the project and container name for a given container ID in the Cluster .
+The function chooseShortID generates a random short ID for peers, returns the ID if it's available, otherwise it counts the number of unused IDs and picks one randomly .
+Creates a new StreamHandler with a specified writer
+getLastEntry in raftState returns the last log index and term if the last log index is greater than or equal to the last snapshot index, otherwise it returns the last snapshot index and term .
+The function WriteResponse writes the response to an inbound call, handling system and application errors .
+Summary: Warnm function in Base returns a warning message .
+The function Getopts returns the user input if it's not empty, otherwise it returns the environment variable value or the default value if the environment variable is empty .
+The function Left returns the leftmost n characters from the string s .
+The function getAAProfileContent generates a string representation of an AppArmor profile for a given container, considering various features, configurations, and conditions such as nesting and privilege status .
+The function RegisterKVHandler registers a key-value handler client with a given context, server multiplexer, and gRPC client connection .
+The function ClientConfig in TLSInfo struct generates a client configuration for TLS, handling errors and conditions like empty certificate authority files, self-signed certificates, and empty common names .
+The function GetOwner in Lockfile checks for a stale lockfile, verifies if the process ID is running, and returns the process if it is, or an error if the owner is dead .
+Creates a new Simple object with context, logging setup, and empty handler map .
+Appends ellipsis to the text list with optional diffStats as comment .
+UserPreferenceLocator returns a new user preference locator with the given href and API .
+The Apply function updates the StatsReport with statistics from a given Stats object, including conflicts, node distribution, deletions, allocations, frees, and memory usage .
+The function newStream creates a new Stream with specified buffer size and replay option, initializing its properties such as subscribers, registration, deregistration, events, quit signal, and event log .
+Lists the users in a specific group using the client's settings .
+ValidForPrefix checks if the iterator is valid and its key has the specified prefix .
+Write JSON data using ArgWriteHelper instance
+The Delete function in Skiplist uses a comparison function to find and delete a specific node, returning a boolean indicating success .
+The function retrieveUnexportedField retrieves the value of an unexported field from a given struct using reflection .
+The function Do sets the script execution to disabled in the given context .
+The function Set in InmemStore sets a byte array value for a given byte array key .
+The function 'next' in the 'packedFileReader' struct advances to the next file block, skipping any remaining blocks in the current file .
+Retrieves organization by name from BranchProtection and applies policy, if organization doesn't exist, default policy is applied .
+LoadByteCode retrieves the bytecode associated with a given key from the state's loader .
+The function NewIterator in Skiplist creates a new iterator with the given comparison function and action buffer .
+The DeepCopy function creates and returns a deep copy of a ProwJobStatus object .
+The function 'Execute' runs a specified method with parameters in a given context, returning an error if the context is invalid .
+The function ReviewEventHandlers in ConfigAgent returns a map of review event handlers for a specific owner and repository .
+The function loadmessage initializes an IP2Locationrecord with the provided message string .
+The function SetProjectQuota sets the quota for a specific project by its ID on a given path, returning an error if unsuccessful .
+The function Stem stems a word based on the specified language and whether to stem stop words, returning the stemmed word or an error .
+The function GetCluster creates a new discovery instance and returns the cluster information .
+The function GetContainerFile retrieves a file from a specified container and returns its content, response details, and any potential error .
+The rewind function resets the fileBuffer's reader to the start of the file .
+The function MemorySize retrieves the memory size of the virtual machine .
+The function NewRemoveDirCommand creates a new CLI command that executes the rmdirCommandFunc with a new KeyAPI instance when invoked .
+UnDeployVApp function in FakeVCDClient undeploys a virtual application
+The function 'accumulate' categorizes pull requests into successes, pendings, and nones based on the state of their associated jobs .
+The function proposeInternalRaftRequest in etcdStore proposes an internal raft request, marshals it, checks its size, registers it as pending, and sends it to proposal channel .
+SnapshotSize returns the size of a Snapshot structure in bytes .
+The function WithClipRect assigns a clipping rectangle to the ProfileSnapshotParams .
+KubeClient returns a Kubernetes client interface using the master URL and kubeConfig .
+The function newWatcherBatch creates a batch of watchers from a watcher group and a set of events, only adding those watchers whose minimum revision is less than or equal to the event's modification revision .
+The function NodeAddress returns the address of a node in the cluster transaction .
+ChainHandlers sequentially applies the provided HTTP handlers and returns the final HTTP handler .
+The function 'NewObject' creates a new object with specified name, type, subtype, and content, limiting the content length to 'MaxObjectContentLen' .
+ReadFileMaybeGZIP reads a file and decompresses it if it's gzipped .
+The function GetConfigs retrieves all the resource configurations from the storage .
+Creates a new Git client with bot credentials, cleans up if an error occurs during the process .
+The function TriggerWithDetails triggers an incident with a given description and details, returning an incident key and any error .
+The function String in ByteCode struct converts bytecode to a string representation, including its name, generation time, and operation list .
+The function ANY in App class allows handling of all types of HTTP methods for a given path .
+The StreamServerInterceptor function logs the execution details and errors of a gRPC server stream .
+The function txPrintRaw prints the raw state transaction, advancing the state after printing .
+The function NewSingleDefaultRepoPathBuilder creates a new repository path builder with a default organization and repository .
+The GetObjects function retrieves specified objects from the API client, starting from a given offset and up to a specified size, and writes the data to a provided writer .
+Popmark method pops an integer from the markstack of the state .
+The function 'upload' creates an invocation, target, configuration, and action in ResultStore for a given test and returns the URL .
+The function GetConfigCmd creates a new command that fetches and displays the configuration from the user's machine in either JSON or YAML format .
+The function dedupEnvCase removes duplicate environment variables, considering case sensitivity based on the provided boolean value .
+Creates a new buffer pool with specified size
+The AttrKeys function returns the attribute keys of a rule, sorted by name priority and then by name .
+Delete the most recent n bytes from the fixed size ring buffer .
+The function NewUnordered initializes a new Unordered structure with a specified root directory .
+The Email function returns a formatted string combining the Forwarder's name and domain name .
+NewFilteredProwJobInformer returns a new SharedIndexInformer for ProwJobs with specified options .
+Creates a new file and returns a writer for it, removing the file if it already exists .
+The SetDoneUntil function sets the 'doneUntil' value in the WaterMark structure .
+IsNoVaultHandlerDefined checks if the error indicates that no vault handler is defined .
+GetCurrentDbDriver retrieves the current database driver, if not found, it fetches the default one .
+The function MarkAndSweep in NATGateway class describes, marks and deletes unused NAT gateways in a specified AWS region for a given account .
+Apply applies all given options or returns the first occurred error .
+The function 'retry' in the 'Client' struct retries a GitHub API call if it fails, respecting the rate limit and handling two-factor authentication and abort errors .
+The function janitorClean cleans a specified resource using provided flags and logs the process .
+The ResValue method returns the value of the XMLNode based on its NodeType .
+The Offset function creates a new condition with a specified database offset .
+The NullNotification function creates a notification with a specified title and message, using the nullNotifier configuration .
+The function ParseFile parses a string argument into a file structure, splitting the input into repository, commit, and path components .
+The function TimeoutWriter sets a timeout for writing operations to an IO writer .
+The PatternLocator function returns a new PatternLocator instance with a specified href and API .
+The function NewFIFOScheduler creates a new FIFO scheduler, initializes it with context and conditions, and starts its execution in a separate goroutine .
+The function UnsafePut in batchTx puts a key-value pair into a specified bucket without safety checks .
+Retrieves the status of a specific service instance using the provided request ID .
+The function detectMultipartMessage checks if the root part of a message is of multipart type .
+The function GetChild retrieves a child node from a directory node by its name, returning an error if the node is not a directory .
+The function getSystemHandler returns a system log handler based on the provided syslog string, debug flag, and log format .
+Sets the discard timestamp in a managed transaction database . Throws an error if transactions are not managed .
+The function userGetCommandFunc retrieves user details from the client and displays them, including roles if userShowDetail is set to true .
+The function Hijack in ResponseWrapper allows for low-level control over the TCP connection by the caller, marking the connection as hijacked if successful .
+The function HTMLHandler in Service returns an HTTP handler that serves HTML content based on the status of the store .
+The function BeginningOfQuarter returns the start date of the quarter for a given time .
+NewResourcesFromConfig creates a list of resources from the given configuration entry .
+ServeReady method in Health struct handles HTTP requests and sends a response
+The function checkTrustedClient verifies if the client making the request is trusted .
+The function WithReportProgress sets the report progress status in StopTrackingHeapObjectsParams .
+InheritedMethods returns a sorted list of methods inherited from the extended service .
+The function PushCloudConfig in the Client struct sends a cloud configuration manifest to a server and returns an error if the request fails or the server responds with a status code of 400 or higher .
+The function GetBuildID generates a build ID either locally or by making an HTTP request to a specified URL, retrying up to 10 times if necessary .
+Client sends HTML formatted chat message
+The function New initializes a new Cron instance with an empty job status map and a logger .
+The function PreflightHeader in Options checks if the origin is allowed, verifies requested methods and headers, and sets up CORS related headers .
+The function Finish completes a message and sends a Finish command with the message ID to the command channel .
+The function HashSecret generates a hash from the application's secret and stores it, then clears the original secret .
+The function InstanceLocator returns a new instance locator with the provided href and API .
+The function CompletionCmd returns a cobra command that generates completion code for bash and zsh shells .
+The Issue function appends the Issuer to options and returns a new Identity .
+The function isMultiImage checks if the given image is a multi-image .
+VmxPath returns the path of the virtual machine's configuration file .
+The function CreateProject in ProtocolLXD checks for extension and sends a request to create a new project .
+The function persistVote stores the term and candidate vote in the Raft's stable storage .
+Adds a remote stemcell to the deployment manifest with given OS, alias, version, URL, and SHA1 .
+The function WrapBuffaloHandler wraps a given handler into an HTTP handler using default options .
+The function ForwardedResponse returns a response that's been forwarded from the client .
+The ProcLocator function returns a new process locator with a specified hyperlink reference .
+Equals checks if two Ed25519 public keys are identical by comparing their byte values .
+Retrieves repository by name from an organization and applies organization's policy to the repository's policy . If repository doesn't exist, it uses organization's policy .
+MutateAccountMerge sets the account ID of a destination in an AccountMergeBuilder .
+Deletes a network interface card (NIC) from a server in a data center .
+The function New initializes a new Service with the provided configuration, including a Vault client and PKI mountpoint .
+The function ProjectHasProfiles checks if a project has profiles in the ClusterTx .
+SetTimeout sets the timeout duration for the GetTasksParams object .
+Offset returns the offset of the specified field in the tuple . If the field does not exist or the index is invalid, it returns an error .
+The function WatchOneF in readonlyCollection watches a specific key in the etcd client and executes a function on each watch event .
+The function TSSControlLocator returns a new TSS control locator with a specified href and API .
+The function GetHeaderValues retrieves the values of a specified header from the Envelope .
+MustAllowTrustOp retrieves the AllowTrustOp value from OperationBody, and panics if it fails .
+The function ValidEnum checks if a given integer is a valid enumeration value for IpAddrType .
+AddWithMask function adds two source images and stores the result in a destination image, using a mask .
+The Start method in the Group struct initiates all tasks in the group concurrently, with each task running in its own goroutine .
+Summary: Close method in Cluster closes all statements and the database connection .
+The function GetAWSCreds retrieves AWS credentials from a common resource, returning an error if the resource type is incorrect or if the access key or secret key are not found .
+The function putCommandFunc executes a put operation using the provided command, key, value, and options, then displays the response .
+The function mergeTags combines default tags and extra tags into a new tag set, with extra tags taking precedence .
+The function ReadUint16 reads a uint16 value from the Reader's buffer .
+Between checks if the current time is within the specified begin and end times .
+The Delete method in IntervalTree removes a specified interval, updates the tree structure, and decreases the count of intervals .
+The function Visit checks if a pointer has been visited before in the visitedPointers map .
+NewV3 generates a new version 3 UUID using the provided namespace and name .
+The Rl10Locator function in API returns a new RL10 locator with a specified href .
+MustOperations retrieves the operations of a transaction meta, and panics if the retrieval fails .
+The function NewWrappedSystemError creates a new system error with a specific code and wraps another error within it .
+The Start function clones the query and sets the start point as the provided cursor .
+The function WithBrowserContextID assigns a browser context ID to the CreateTargetParams .
+Summary: Int64Var sets an int64 value for a specific environment flag .
+CheckInt verifies if the integer value is within the specified range .
+The function ArmForSwitch in AllowTrustResult struct returns a string and a boolean based on the switch case of AllowTrustResultCode . If the case is AllowTrustResultCodeAllowTrustSuccess, it returns an empty string and true .
+The function SortKeys sorts and deduplicates a slice of reflect .Values .
+The function getHelloPacket in PubSub generates an RPC with subscriptions for all topics in myTopics .
+The function 'EnvelopeToMarkdown' converts an email envelope to markdown format, including headers, text, HTML, attachments, inline elements, and other parts .
+The function commandLine formats and returns the command-line arguments as a single string .
+The MonitoringMetricLocator function returns a new MonitoringMetricLocator with a specified href and API .
+The function kubeEnv converts a map of environment variables into a sorted slice of Kubernetes EnvVar objects .
+The function NotificationLocator returns a new notification locator with a specified link and API .
+The function parseTriageData parses JSON input into a triageData structure, validating its fields and populating the 'Jobs' field with the BuildIndexer for each job .
+The function Critf logs critical level messages formatted according to a specified format and arguments .
+The function Try wraps a HTTP handler, executes it, and stores any error it returns .
+The function deltaDisplayed returns the percentage change in coverage, or an empty string if the base ratio is less than zero .
+The function New creates a new genny group with validated options, applies a template transformer, and adds it to the core group .
+The function 'toRetryParameters' converts RetryOptions to TaskQueueRetryParameters .
+The function commandPath returns the full path of the given command, including its parent if it has one .
+The Put function in Cache stores content with a specific key, ensuring directory existence and validating content hash .
+Generates an OAuth2 code by encoding user and client details, then signs and serializes it .
+The Finish method in RuleIndex collects embedded rules and builds an import index .
+The function CallErr executes a function that returns an error in a separate goroutine and returns the error .
+The function BR returns the bottom right point of the rectangle .
+The function JoinAddress concatenates a list of email addresses into a single string .
+NewPolicyFromBytes creates a new policy from JSON serialized bytes .
+ArmForSwitch - returns a string and a boolean based on the operation type in OperationResultTr .
+The function DepEnsure checks application configurations and runs dependency ensure or module update accordingly .
+The function CreateFirewallRule creates a new firewall rule for a specific server and network interface card in a data center .
+Delete a project from the cluster database
+The function StoragePoolNodeConfigs retrieves the configuration of each node in a storage pool, returning an error if any node is missing .
+The function getConn retrieves a connection from either inbound or outbound connections of a peer based on the provided index .
+The function sets the stateful status of a container in a cluster .
+Summary: WithHeaders sets multiple headers for the ContinueRequestParams instance .
+The function ApplyDefault merges UtilityImages with default values if they are not set .
+The Declaration function returns a formatted string of a Field's name and argument type .
+The function ParseXML reads and parses an XML document from a reader, applying optional parse settings, and returns the root node of the parsed XML tree .
+The CheckCompact method verifies the compact revision of a member's Etcd client .
+The function NewElection creates a new Election instance with the provided session and prefix string .
+The function ProxyInstance proxies a service instance, handling errors and trimming the path prefix . It also validates the request method against reserved proxy paths .
+The function 'Update' in the 'Devices' list compares the current list with a new one, identifying devices to be added, removed, or updated, and returns these lists along with the differences .
+The function Run initializes an Authorizer with provided Enforcers and returns it .
+The client updates a single resource's state and user data, both in the storage and locally .
+The function Do executes the TrackCacheStorageForOrigin command in the given context .
+The function readAnswer reads a line from standard input, trims it, and returns the default answer if the input is empty .
+The function 'Until' repeatedly executes a function with a specified time period until a stop signal is received .
+UnmarshalText converts text into a Privacy type, returning an error if the privacy setting is not recognized .
+The Events function updates a pool of event listeners for a cluster, scheduling the update to occur every second .
+NewClientHandler creates a new client handler with logging, server peer, and timeout parameters, and attaches basic and V2 handlers to it .
+The function MultiCloudImageSettingLocator returns a locator for multi-cloud image settings using a given URL .
+The function NewController initializes a new Controller with given parameters, reads the last update time from a file, creates a new client, and starts it with a specified cookie file path .
+HasErrors returns true if there are any form or field errors present in the FormErrors structure .
+Close closes the rotating file handler .
+Summary: ValidPassword checks if the provided password matches the user's hashed password .
+The function setParamValue sets the value of a specific key in the provided map, if the value is not empty .
+Cancel method closes the output of the PubSubSubscription's response .
+SetPadding sets the padding characters and their size for a file sequence .
+The function WriteBytes writes the input byte array into the WriteBuffer .
+The function ReadResponse reads a response from a buffered reader, handling different data cases including OK, error, and raw data .
+The function appends files to the configuration file and reloads it .
+The function New initializes a Fluent instance with provided configuration, setting default values if certain parameters are not specified .
+Summary: NewPlainClient creates a new client with provided identity, username, and password .
+The SMTPSender's Send function sends an email message with headers, bodies, and attachments .
+The function txUnmarkRaw converts the 'sa' field of a State object from raw string type to standard string and advances the state .
+The function getProfileContainersInfo retrieves information about containers associated with a specific profile from the database .
+Creates a new pipeline configuration using the provided REST configuration and starts the informer .
+Resets the offset of a specific partition in the OffsetStash using the provided message and metadata .
+The function OnGossip in Router applies a topology update and returns the updated topology data .
+The function Format formats a string using the provided attributes and handles any errors that may occur during the process .
+The IsCreate function checks if an event is of type 'Put' and if its create revision is equal to its modification revision .
+Creates a new maintenance client with retry capabilities for a given connection .
+The function 'internalRun' in 'Bench' executes requests within a specified duration and handles the results .
+The function 'tagsFromField' extracts tags from a database field, skipping those with a skip tag, and returns them as a string array .
+The function RemoveAllNetworkAdapters removes all network adapters from the virtual machine .
+The function CurrentFrame retrieves the top frame from the state's frames stack .
+NewStringSliceFlag creates a new string slice flag with a specified name and usage .
+Unmarshal JSON data into a string, handling different data types and setting validity .
+The function cascadeSaveWithConfig updates a document's properties based on the provided configuration, handling both one-to-one and one-to-many relationships .
+SetLogger sets the logger for a Stream instance .
+The Text function retrieves the text of a single selected element from the selection . If an error occurs, it returns an empty string and the error .
+The function bcastAppend in raft broadcasts append requests to all other nodes in the raft cluster .
+The function 'createContext' selects a project and either creates or reuses a cluster based on the context options provided .
+The Set function assigns a string array to a specific key in the Flash data structure .
+The function PruneComments in the EventClient class removes comments from a GitHub issue that meet a certain condition defined by the shouldPrune function .
+The function CreateNewRecord generates a new record by splitting a property string into an array and storing it along with its length and the original YAML data .
+GetATime returns the last access time of a given path, or a default time if an error occurs .
+The GetAlphaNum12 method in the Asset struct returns an AssetAlphaNum12 object and a boolean indicating if the operation was successful .
+The function 'Preview' determines the type of SQL statement by examining the first word of the input string .
+The function LineNum returns the number of lines in the Lexer's input up to the current position .
+The function acquireDirectoryLock attempts to obtain a lock on a directory, returning a directoryLockGuard if successful, or an error if not .
+GetExecPath retrieves the execution path from the environment variable or symbolic link .
+GetMetadata retrieves the value of the specified metadata key from the Object .
+The function GetStatus in StatusMiddleware retrieves the current status, including uptime, total count, total response time, and average response time .
+DecodePeer converts byte array to raft server address .
+The function GetSecretEnvVars generates environment variables for a given storage backend, including secret keys from a predefined map .
+Summary: The Listen function in NotifyBundle calls the ListenF function if it's not nil .
+The function Add in the Pool struct adds a new job to the pool and waits until the job is added .
+The function guessType in APIAnalyzer determines the type of a given definition based on its reference ID and other attributes .
+The function internalSQLGet retrieves the database schema or full database dump based on the request parameters from a specified database in the daemon .
+The function ListStatuses returns the statuses created for a specific reference in a GitHub repository .
+HasClientCertificate checks if client certificate and key files exist in the config path
+The function Retrieve in vaultCredentialsProvider retrieves AWS credentials from Vault, converts access key and secret to strings, updates lease values, and renews the lease periodically .
+The function LoadPlugins loads available plugins and listens for specific events, executing the associated plugin command when the event occurs .
+The function dispatchInbound handles incoming calls, reads the method, updates stats, checks for call cancellation or timeout, and handles the call using the specified handler .
+The function UpdateStoragePoolVolume updates a storage pool volume in the ProtocolLXD, checking for necessary extensions and sending the request .
+The function 'update' in the 'Map' struct updates the map with given values, tracks the changed keys, and returns them sorted . It also returns any errors encountered during the process .
+The function 'fieldName' determines the field name of an object in a process, considering the object's type, size, and offset .
+The function 'step5' modifies a snowball word by removing the suffix 'e' if it's in R2 or in R1 and not preceded by a short syllable, and removes the second 'l' if the word ends in double 'l' and the final 'l' is in R2 .
+Renames a container snapshot in the Btrfs storage system .
+The function Marshal encodes an interface value and returns the byte representation .
+Get a pooled network connection for a specific server address
+The function getIndex opens a JSON file, decodes it into an Index object, and returns the object or any error encountered .
+The function constructs a query string for setting a webhook URL in the outgoing set .
+Summary: Generate a string of field criteria from a given array of fields .
+The function ColumnFields in Mapping returns all fields of type 'Column' excluding those specified in the 'exclude' parameter .
+The function dispatchEvent sends a watch response either to all watchers or a specific one based on the watch ID .
+The function sendRPC sends an RPC request of a specific type and arguments over a network connection .
+The function authEnableCommandFunc enables authentication by interacting with the client, adding roles if necessary, and handling errors .
+ProfileExists checks if a profile exists in the specified project and name in the cluster .
+The function checkLine splits a string into two parts and trims any extra spaces .
+The function Copy in dbHashTree hashes the current tree, serializes it into a pipe, deserializes it from the pipe into a new HashTree, and returns the new HashTree .
+Returns the current user's home directory path .
+AddFlags adds flags to the TypeFilterWrapperPlugin command .
+Set parses the string as a boolean value and assigns it to Bool .
+The function ExpandAlias in RepoAliases expands the given alias using normalized GitHub login .
+Creates a new Canceler instance and initializes its request cancellation channel .
+The function New creates a new Innkeeper client with the provided URI, user, and password .
+The function QueuedJobs in Cron returns a list of triggered jobs and resets their status .
+Creates a pipeline request from given pipeline information .
+Validate validates the new task and all of its components
+Write the type of a given object along with its fields to a writer in the ClientWriter .
+The function NewSTMRepeatable creates a new repeatable Software Transactional Memory (STM) with a specified context and client .
+The Selected function checks if an element in the selection is selected, returning a boolean and any potential error .
+The function 'postPopulate' updates the API entry's input and output URLs and appends them to the parent API definition's schema URLs .
+The function JsonFormatEx formats a record into JSON, with options for pretty printing and line separation .
+The Warn function in ProgressRenderer displays a warning message with a specified timeout duration .
+The Authenticate function in AuthController authenticates a user and generates a JWT token for valid users .
+Create new attributes by merging existing attributes .
+The function ReceiveEvent processes an event and returns the updated state . If the event matches the exit condition, it transitions to an inactive state, otherwise it remains active .
+Finish all spans and root in tracer if root is true .
+Updates a service instance with new data, validates the team owner, processes tags, and executes a pipeline of actions .
+Len is used to return the number of peers in the PeerList .
+Checks if the given string is uppercase and alphabetic
+The function AddRow adds a new row to the table, formatting the values and calculating the sizes before appending .
+The function DeleteNotification in the Pushy struct deletes a notification using the provided pushID and returns the result or any errors encountered .
+The WhoamiCmd function creates a new command that identifies the current user and displays their information .
+The function NewAccountEntryExt creates a new account entry with a given value and returns it along with any potential error .
+The CloudBillLocator function returns a new CloudBillLocator instance with a specified href and API .
+The function parseIssueComments processes comments on a ProwJob issue, identifying comments to delete, new entries to add, and the ID of the latest comment .
+The function 'GetResourceByType' retrieves a specific resource based on its type and ID from the client .
+The function 'determineSkippedPresubmits' identifies presubmits to skip from a superset, excluding those that are triggered .
+The function 'ProjectUpdate' updates the project with the given name and configuration in the cluster database .
+The function creates a new outgoing voice message with the specified recipient and file ID using the Telegram Bot API .
+The function putNode in Arena calculates and returns the aligned offset for a node of a given height .
+The function revokes expired leases . If the lessor is primary, it finds expired leases up to a limit . If any are found, they are sent to the expired channel unless it's busy or the lessor is stopped .
+The function 'All' in the 'Catalog' struct returns all models in the catalog .
+The function appendConfigurationEntry in Raft appends a new configuration entry, updates the latest configuration and index, and starts or stops replication based on the new configuration .
+The function LogEvent in MockSpan logs a specific event .
+The function LoadFile opens a file, reads its content, and parses it into a Package structure using the provided parser .
+The function Checksum calculates the CRC16 checksum of the provided data and returns it as a byte slice .
+MarshalJSON method returns the JSON encoding of Var1 .
+The function PutHashTree serializes a hash tree and puts it as an object in the Pachyderm client .
+Creates a new Approvers instance with specified owners, empty approvals, assignees, and a function that always returns false for manual approval .
+NewSTMReadCommitted creates a new software transactional memory with read committed isolation level .
+The function Wrap creates a new Namespaced object with the provided context and namespaces .
+GetRegionName returns the name of the region for the given country and region codes .
+The function NotifyDevice in the Pushy struct sends a notification to a device and returns the response, any errors from Pushy, and any other errors .
+The function getStreamContext in NetworkTransport returns the current stream context .
+WithContext sets the context for the PutAppsAppParams operation .
+The function RunForS3Gateway in PortForwarder sets a local port for S3 gateway and runs it, returning any potential error .
+The function mkPathDepth in v2v3Store creates a path with a specified depth from a given node path .
+SetDefaultTimeout sets the default timeout for the cluster's database driver .
+The function NewSetOptionsResult creates a new SetOptionsResult with a specific code and value .
+The function New creates a new generator with provided options, validates the options, and sets up commands based on the provider .
+The function saveDB opens the source database, copies its content to the destination database, removes membership information, and updates the consistent index to match the hard state .
+The function Cluster splits a string into parts and returns the first two parts if there are more than two parts .
+The function ManageOffer manages an offer, setting its passive status and applying mutations .
+The function Count returns the number of nodes in a cluster .
+WithContext sets the context for the PatchAppsAppRoutesRouteParams and returns it .
+The Mutate function applies a series of mutations to a transaction envelope, initializing it first and handling any errors .
+The function Schedule adds a job to the fifo queue and resumes the queue if it's empty .
+GetLocalID safely returns the server's local ID .
+The function ProjectGet retrieves a project with the specified name from the ClusterTx, returning an error if the project is not found or multiple projects are found .
+The function generateUUID creates a new unique identifier using random bytes .
+The function expandStates in the context struct expands the current states, allocating more units if necessary, and returns the updated states .
+The function NewDiskCache creates a new disk cache with specified parameters for HTTP round trips .
+The function PublicationLocator returns a new PublicationLocator with the provided href and API .
+The function addKnownTypes adds ProwJob and ProwJobList types to the scheme .
+The Write function in gzipResponseWriter writes the byte slice to the response, with optional gzip compression if canGzip is true .
+The function WithTokenFunc assigns a token function to a key in the TokenCredentials structure .
+The function askQuestion prints a question and returns the response, using a default answer if no response is given .
+The function isAutoIncrementable checks if a database field is of integer type and returns true if it is .
+StreamServerInterceptor returns a server interceptor that adds tracing if enabled .
+The Connect function establishes a connection between the In-memory transport and a peer server .
+The function networkCreateListener creates a network listener at the specified address with the provided certificate .
+GetLiveEntry retrieves a live ledger entry from a bucket entry if it exists .
+The function 'GetRepoLabels' retrieves labels from a specific GitHub repository using the 'issueService' of the client .
+The function BatchSize sets the batch size for a query and returns a cloned query with the updated batch size .
+The function WrapHTMLF wraps a string with specified HTML tag and attributes, and returns a function that takes a string and returns a string .
+The function NewWatchServer initializes a new watch server with configurations from the provided EtcdServer .
+The function 'readPaginatedResultsWithValues' retrieves paginated results from a specified path with given values, unmarshals the response into a new object, and accumulates the results .
+The function MutatePayment modifies a payment operation by setting its maximum amount, path, and asset based on the provided PayWithPath object .
+The function runEtcd in Server starts the proxy after a delay, initiates the etcd command if present, and waits for the etcd server to be ready or times out after a minute .
+The function removeServiceMonitor in ServiceManager stops a service monitor process and removes it from the process map .
+The function isPathSafe checks if a given string is a safe URL path, by parsing and unescaping it, and validating it against a whitelist pattern .
+DecodeKey decodes a base64 encoded string into a Key object .
+The function GetLineSize calculates the size of a line in a Sapin structure based on the floor and line number .
+The function IsPaused checks the progress state and determines if the progress is paused based on the current state .
+The function collectImplementers_nolock collects all implementers of a given type info within the codec .
+The function SetString sets a string value to a specific ipv4Tag in the given span .
+The function deleteDir deletes a directory and its contents from the file system in a bolt transaction .
+The function List in readonlyCollection checks the type of the value, unmarshals it, and performs a function on the key-value pair .
+GetTxSetHash retrieves the transaction set hash from a StellarMessage if available .
+Renames a storage pool volume in a cluster
+The function SetFallbackLogger sets a fallback logger for the Base object, initializing it if necessary and shutting down any old logger .
+The function 'reduceUncommittedSize' in the 'raft' struct decreases the size of uncommitted entries . If the total payload size of the entries exceeds the current uncommitted size, it resets the uncommitted size to zero .
+The function 'publishEntries' in 'raftNode' processes raft entries, handles configuration changes, updates the applied index, and signals when replay has finished .
+The Clear function in Cache struct deletes all files in the cache directory .
+DeleteObject deletes an object from the specified table using its id and returns a boolean indicating if the operation was successful .
+The function 'send' in 'conn' struct locks the sending process, sends an update via transport, and then unlocks it .
+ValidEnum checks if a given integer is a valid enumeration in the CryptoKeyType map .
+The ConvertColors function converts an array of integers into color sequences, with an option for bold formatting .
+The function IpAddressBindingLocator returns the locator of an IP address binding given a specific href .
+The function ReadConfigJSON reads a JSON file from a given path, parses it into a configuration structure, validates the configuration, and returns it .
+The function execWatchCommandFunc executes a command when a specified key changes in the etcd key-value store, handling errors and allowing for recursive watching .
+The function String returns a human-readable description of a Type .
+The PerformRequest function in the API struct signs the request if authentication is provided, then sends the request and returns the response or an error .
+Determine the type of update in a message
+The RenameContainerBackup function in ProtocolLXD renames a container backup if the extension exists, otherwise it returns an error .
+SetBackend sets a new backend service for the server .
+Pins returns a map of pin information from a shell request execution
+EscapeHTML function returns a string with HTML characters escaped
+The function GetCaps retrieves all extended attributes of a file at a given path and returns the value of the first attribute as a byte slice .
+The function 'runWorker' in the 'Controller' continuously processes items until there are none left, then signals completion .
+The function NewLedgerUpgrade sets the type of a LedgerUpgrade and updates its version, base fee, or max transaction set size based on the provided value .
+Creates a new floating point ring buffer with a specified maximum view items .
+The function ChunkReader reads chunks of data from a provided reader and applies a given function to each chunk, returning the total bytes processed and any error encountered .
+The function StoragePoolNodeJoinCeph allows a new node to join a Ceph storage pool by creating entries for all Ceph volumes and their configurations for the new node .
+The Sync function in the Client struct synchronizes the client's endpoints with the member list from the context .
+The function DefaultConfig initializes a new configuration with a default Vault client .
+The function MoveProjectCard in FakeClient moves a project card from one column to another in a project board .
+The function GetIssues retrieves issues from a specific organization and repository using the provided options, and handles pagination .
+SyncHandler returns an HTTP handler that synchronizes a given gostruct and waits for the connection to complete, logging any errors encountered .
+The function String returns a string representation of a NodeType .
+The Clients function creates a list of clients by establishing connections for each worker in the pipeline .
+The function NewLeaseGrantCommand creates and returns a new cobra command for lease granting .
+The AddFlags function adds flags to the options in the flag set .
+The function 'expireExchange' in 'messageExchangeSet' deletes an exchange with a given message ID and logs if the exchange has expired .
+WithContext sets the context for the PostAppsAppRoutesParams and returns the updated object .
+The function Expected in Firewall returns the expected state of the firewall in the cluster .
+Executes a client call with retry, returning any application or call errors .
+MustExec executes the XPath query on a tree node and panics if an error occurs .
+Catch is a middleware function that catches and handles HTTP errors .
+The function RegisterInterruptHandler adds a new interrupt handler to the existing list of handlers .
+WithScriptToEvaluateOnLoad sets the script to be evaluated upon reloading .
+The function StoragePoolCreatePending checks if a storage pool with a given name exists in a pending state, if not, it creates one and adds the node-specific configuration .
+The function ContainerProfiles in the Cluster struct retrieves the profiles associated with a specific container ID from the database .
+The function 'stepCandidate' handles different types of messages for a raft candidate, including vote responses, proposals, append entries, heartbeats, snapshots, and timeout notifications .
+The function 'refresh' updates the cookies and refresh time if the HTTP response status code is 204 .
+The function Ago converts a timestamp into a human-readable duration string from the current time .
+The function readFrames continuously reads frames from a connection, handles any errors, updates the last activity, and releases the frame if necessary .
+The function parseSequenceOf parses a sequence of bytes into a slice of a specified type, checking the validity of each element's type and length .
+Retrieves a specific firewall rule using the client's details and identifiers .
+The function 'step2' checks for specific suffixes in a SnowballWord 'w', and replaces or removes them based on certain conditions, returning true if a modification was made .
+The function signaturePath returns the path of a specific signature in the directory reference .
+Update the creation and modification timestamps before inserting a record .
+The function 'patchRenameCustomVolumeLVs' renames custom volume logical volumes in storage pools .
+The function WithField adds a new field to the Namespaced log interface .
+The function Service returns the service name from the payload of a lazyCallReq object .
+The function 'match' generates a Matcher based on the type and parameters of the source data .
+The function parseImageAndDockerReference parses an image and a Docker reference, returning any errors encountered during the process .
+FirstByLabel selects the first element with a specific label in a selectable session .
+The gobTCPSender's Send function encodes and sends a byte array message .
+The function RemoveDOMStorageItemParams .Do executes the command to remove a DOM storage item .
+The function ProfileCleanupLeftover removes unused profiles and their configurations from the database in the cluster .
+The function updateCommandFunc updates a key-value pair in the client, with error handling and response printing .
+The function GetCreateAccountOp in OperationBody returns a CreateAccountOp if the operation type matches, otherwise it returns false .
+The function 'identifyDataDirOrDie' identifies the directory type and returns it, or terminates the program if an error occurs .
+Patch method in dryRunProwJobClient returns no changes and no errors .
+The function collectFieldIndexes in the DB struct collects indexes of fields in a given type that are not unexported, skipped, or auto-incrementable primary keys .
+Check if all runes in prefix are in the alphabet, print and exit if not .
+The function RsyncSend sets up rsync, mirrors the data over a websocket, waits for the process to finish, and handles any errors that occur .
+The StreamEncoder's Open function sets the maximum number of elements and initiates the emission of an array if it's not a one-shot operation .
+The function Slugify transforms a string by replacing all instances of a regular expression with a space, converting it to lowercase, and then applying the Dasherize function .
+The function NewEndpointCommand initializes a new cobra command with various subcommands related to endpoint health, status, and hash key-value .
+The function 'connect' in 'path' struct connects two points in either forward or reverse direction based on a comparison function .
+The function populates discard statistics from the value log database .
+The function handleError in ServerMux handles an error by setting the response status and data, and returns true if an error exists .
+The function maybeTerm in the unstable structure retrieves the term of a given index if it exists, considering both the snapshot and entries .
+The function Compose chains multiple middleware and an HTTP handler together, with the handler being the last in the chain .
+The function GetRequestsResourceListFromPipeline retrieves the resource list from a specific pipeline's specifications .
+The function SetHeartbeatHandler sets the handler for network transport heartbeats .
+The UnbindUnit function in the brokerClient removes the binding between a service instance and a unit .
+ValidEnum checks if a given integer is a valid error code .
+The function Do executes the HighlightRect command in the given context .
+The Hold function in Barrier struct creates a new key and returns any error encountered .
+ListApprovals - returns a list of approvals from the current set of approvers .
+NewExactReadCloser returns a new instance of exactReadCloser with the provided ReadCloser and totalBytes .
+The NewStreamEncoder method in Codec creates a new stream encoder with a new emitter .
+AddInteraction initializes an interaction and appends it to the Pact's interactions list .
+The function StrLength in Controller validates the length of a given string field, and returns the string if it passes validation, otherwise it throws a validation error .
+The function NewFrameSet processes a frame range into a FrameSet object, handling each match within the range .
+The function SetMachineProviderConfigs in the Cluster struct sets machine provider configurations, matching them with existing machine sets by name .
+The function Do executes the command to set bypassing of service worker parameters in a given context .
+Apply a filter that converts keys to lowercase .
+The Stop function logs the server address, stops the gRPC server, and then logs the server address again .
+The function NewExponential creates a new Backoff with exponential strategy, starting and limiting at specified durations .
+The function AddContext adds a context to the logger and returns a new logger instance .
+The Compact function in the Member struct compacts the etcd storage, using the specified revision and timeout .
+The function Close in APIClient class closes the client connection and the port forwarder if they exist .
+The function WithBody sets the body of the route parameters and returns the updated parameters .
+The function PutTuple in TupleBuilder writes a tuple to a buffer, checking the field type and size, and handling errors .
+The function 'mountBlob' attempts to mount a blob from a source repository to a destination within a Docker image, handling any errors or unexpected responses .
+The function RandString generates a random string of a specified length .
+The function Wait in Pool sends a signal to the working_wanted_pipe and waits for a response, pausing for a specified interval .
+GetHash retrieves the hash from the Memo if the armName is empty .
+The function 'Only' returns a Matcher that checks if a specific operation is listed in the provided operations context .
+The function migrateLibraryEmbed modifies the attributes of Go rules in a file based on certain conditions .
+The function SetDocsUsage sets the help template and usage function for a given command, including associated commands .
+The function GetContainerMetadata in ProtocolLXD retrieves the metadata of a specified container, returning an error if the required extension is not available .
+The function isHaltErr determines if an error requires halting the operation based on the context and error status .
+The function writes a protocol buffer message to a byte stream .
+The Send function sends a chat message, including subject and thread if provided, through the client's connection .
+The function UnmarshalECDSAPublicKey parses the public key data, checks if it's an ECDSA public key, and returns it, or an error if the key is not ECDSA .
+The function RateLimiter creates a new rate limiting queue with a specified controller name and a maximum rate limiter .
+The function ZeroToEnd truncates a file from the current position to the end, then preallocates blocks to maintain the original file size .
+IntrospectOthers returns information about other channels in the channel map if the IncludeOtherChannels option is set .
+The function WaitForIt establishes a connection to a specified host and port, and waits until the port becomes available or the timeout is reached .
+The Count function returns the number of active items in the relayItems object, accounting for any tombstones .
+SetLastContact updates the last contact time in follower replication .
+The function ConvertResponse transforms URL errors into trace errors and reads errors from HTTP response code and body .
+Delete a specific key from the context
+The Do function in StopSamplingParams executes the StopSampling command .
+The function OrderBy in the Condition struct sorts the data by the specified table and column, and allows for additional sorting parameters .
+The function checkConfiguration validates the given configuration by ensuring unique server IDs and addresses, and that there is at least one voter .
+The Observe function in Election returns a read-only channel for observing election responses .
+The function SubmitTransaction sends a transaction envelope as a string and returns a transaction success response or an error .
+The function MigrateStoragePoolVolume in ProtocolLXD migrates a storage pool volume and returns an operation or an error if the migration is not possible or the request fails .
+Close method locks the writer and closes the associated file .
+The function EmptyFile creates and returns a new File instance with specified path and package .
+MarshalJSON method converts a valid string to JSON, otherwise returns an empty byte array .
+The function RunIODirPath executes a command with arguments in a specified directory path, using the provided IO object for input and output .
+NewDottedVersion creates a new version object from a string, splitting it into major, minor, and optional patch versions .
+The DeepCopy function creates and returns a deep copy of the Refs object .
+The Max function returns the maximum between two Address values .
+The function MkdirAll in the Ordered struct creates all directories for a given path in reverse order .
+The function EnableRuleByRegexp in the Seekret struct enables a rule in the rule list based on a given regular expression name .
+The function Do in SetFontSizesParams executes the SetFontSizes command in the given context .
+The function newState creates a new state with typedefs and enums from the provided Thrift parser .
+The function NewInlineQueryResultPhoto creates a new inline query result for a photo with a specified ID, photo URL, and thumbnail URL .
+The function InspectRepo inspects a repository using the PfsAPIClient and returns the repository information or an error .
+The function StartTrackingHeapObjectsParams .Do executes the command to start tracking heap objects .
+The function constructs a URL by appending a prefix and the current context string to the provided URL, considering whether the context is root or not .
+The function fetchWithDefault either fetches an existing peer from the peers list or adds a new one if it doesn't exist, incrementing the local reference count in both cases .
+AttributeValue returns the value of the specified attribute from the Node's attributes, or an empty string if not found .
+The function containerLoadFromAllProjects loads all containers from all projects in the state .
+The function selectContext prompts the user to select a context from a list, create a new one, or reuse an existing one, and returns the chosen context .
+The function AbsDiff calculates the absolute difference between two source images and stores the result in the destination image .
+Sends the outgoing callback query response .
+Logs an error message if the current log level is less than or equal to Error Level .
+The Password function sets the password in the options for a token .
+The function 'toTypeDescription' returns a string description of the given reflect type .
+Delete multiple items from Memcache given an array of keys .
+The function sets a value for a specific key in a session, identified by an access token, in a database .
+FSSize returns the size of the file system represented by the database hash tree .
+The function doStoragePoolCreateInternal initializes a storage pool, creates it, and updates the database with any configuration changes made during creation .
+The function RunForPFS in PortForwarder sets a local port for port forwarding, defaulting to pfsLocalPort if not specified, and then runs the port forwarding .
+The function 'Get' retrieves the value associated with a given key from the CHD data structure, returning nil if the key is not found .
+Retrieves the configuration of a specific container in the cluster by its ID and key .
+The function WriteSecret encodes and writes the provided data into a Kubernetes secret .
+The function SaveConfigData writes the configuration data to an output writer .
+The function Do in ClearObjectStoreParams executes the command to clear the object store .
+The function 'WithRequest' updates the request of an interaction and checks if the request body is a JSON formatted object .
+The function DeleteCollection in dryRunProwJobClient doesn't perform any operation and always returns nil .
+The function updateString updates the value of the first string pointer if it's different from the second one and returns true if an update occurred .
+AddResultf adds a formatted result message to a check with a specific status .
+MarshalJSON method returns the JSON encoding of the PostArtifactRequest object .
+Deletes a balanced network interface card (NIC) in a client's data center .
+The function NewReference creates a new image reference for an OSTree image, resolving the path to the repository and adding a default tag if needed .
+The function 'edges1' traverses the fields of a given type and applies a function to each field, stopping if the function returns false .
+The function ReadEnvelope reads MIME parts from a reader and returns an envelope constructed from the root part .
+The function Reset resets the atomic fixed size ring buffer .
+The function OutgoingContextWithID adds an ID to the outgoing context with merged metadata .
+WalkPrefix in Tree walks the tree under a given prefix
+The function NewPRSignedByKeyPath creates a new policy requirement signed by a specific key path .
+The WithMethod function sets the method for the ContinueRequestParams and returns it .
+KeyFromMetadata returns the first key from metadata or an error if no key is found .
+The function Sign in TransactionBuilder signs the transaction with the provided signers .
+MustQSet retrieves the ScpQuorumSet from a StellarMessage, and panics if it fails .
+The function PeerInfo retrieves the peer information from a channel .
+The function raftMaybeBootstrap checks if the raft cluster is already bootstrapped, if not, it bootstraps the cluster .
+The function GenerateClientCertificate in Config checks if a client certificate exists, if not, it generates a new one .
+The function mergeChunk in APIServer merges chunks of data, logs the process, and handles errors .
+The function NewTemplateWithFuncMap creates a new template with a specified function map for each log level, and returns the new template or an error .
+The function 'Range' in 'etcdStore' proposes an internal raft request, waits for a response or an error, and handles cancellation and stop scenarios .
+The function 'Current' retrieves the user details from the incoming headers in the given context .
+The function nextStart scans the XML token stream and returns the next StartElement, or an error if one occurs .
+Pad adds padding to a string on both sides until it reaches a specified length .
+The function fileNameInfo extracts and returns information about a file, including its name, extension, whether it's a test, and its operating system and architecture .
+The function UseProbe sets the probe option in the APICheckSuite .
+The function protoToAppLogs converts protobuf log lines into application logs .
+The function MarshalPrivateKey marshals a private key into a byte array .
+The Join function initiates a join operation on a database table .
+The SetHardState function sets the hard state in memory storage after acquiring a lock to ensure thread safety .
+Parse function returns parsed object and any error encountered from the offset in the byte buffer .
+The function ReadDir reads the directory specified by the string 'd', applies any provided options, and returns a sorted list of file names, optionally filtered by file extension .
+The function socketUnixListen establishes a Unix domain socket listener at a specified path .
+The function frees a node from the Skiplist and updates the statistics by incrementing the nodeFrees counter .
+The GetEtcdClient function returns an etcd client from the ServiceEnv . If it fails to connect or the client is nil, it will panic .
+Get enabled repositories for a specific external plugin in the configuration
+The function getBlobAndLayerID retrieves the blob and layer ID for a given BlobInfo . It validates the digest, checks if the blob corresponds to a layer or a data item, and returns the blob's reader, size, and layer ID .
+The function updates the version of a node in the cluster transaction, returning an error if the update is not successful .
+The function 'applyEntryNormal' in the 'EtcdServer' struct applies a raft entry, updates the consistent index, handles no-op entries, and triggers alarms if there's no space .
+GetHeader retrieves the specified header from the Envelope, or returns an empty string if the header is not found .
+The function convertDockerImageReference converts a Docker image reference string into a domain-specific format .
+UnmarshalSecp256k1PrivateKey converts byte array into a Secp256k1 private key .
+The function PprofUpdateAddress updates the network address for pprof, closing the previous socket and setting up a new one if necessary .
+The function OpenDb opens a GeoIP database from a list of file paths, setting a finalizer for cleanup and setting the character set to UTF8 .
+GetAlphaNum4 retrieves the alphanumeric value of an asset if it exists .
+The function listGcsObjects lists the objects in a Google Cloud Storage bucket with a specific prefix and delimiter .
+The function CompareConfigs compares two configuration maps, excluding specified keys, and returns an error if there are differences .
+The AggregateFilter function combines multiple filters and returns a filter that checks if a presubmit configuration should run, is forced, or has default settings .
+The String method for DottedVersion returns a formatted string representation of the version .
+The function 'ArmForSwitch' checks the type of StellarMessage and returns a corresponding string and boolean value .
+The function Do in SetPausedParams executes the SetPaused command in the given context .
+The New function creates a new DBError with specified database name and message, and sets the HTTPCode to InternalServerError .
+The function ProfilesExpandDevices expands devices by applying all profiles and overlaying the given devices on top .
+OnHandler manages HTTP requests, logs errors, and sends appropriate JSON responses based on the store's state .
+The function 'listen' in 'NetworkTransport' continuously accepts incoming connections and processes them in a separate routine, with error handling and shutdown capability .
+The function initJaeger initializes Jaeger for tracing with specified service, node, and agent address, and returns a tracer, a closer, and any error encountered .
+Returns the first suffix in a given range if it exists in the provided suffixes .
+The function Wrap wraps the given context with headers, creating an empty header container if none exists .
+The function IntrospectState returns the runtime state of a peer, including host port, inbound and outbound connections, chosen count, and SC count .
+The function ValidateScope checks the validity of a given scope based on the operating system, and ensures it uses a canonical path format .
+The function goTypePrefix in State struct generates the Go type prefix for a given Thrift type, considering imported types, direct Go types, typedefs, and pointers .
+The function recalculate in commitment struct recalculates the commit index based on the median of match indexes, and notifies if the new commit index is greater than the current one and is not less than the start index .
+The Get function in dryRunProwJobClient returns no ProwJob and no error .
+NewClientFromFile creates a new client from the data in the specified cluster file and namespace .
+The function Seek in ReadWriteSeeker sets the new position for subsequent read/write operations .
+The Trailer function returns the trailer value from the Reader object .
+MustId retrieves the ID from the Memo; if the ID is not found, it triggers a panic .
+MutateTransaction modifies the transaction with a ChangeTrust operation .
+Create a new Error instance with a specific reason and retry status .
+MustAuth method retrieves the authorization from StellarMessage, and panics if it fails .
+The function Get retrieves a relayTimer from the pool or creates a new one if none are available .
+The function WriteString writes a string to the WriteBuffer without making a double copy .
+The function applies default values to the DecorationConfig if any field in the current DecorationConfig is not set .
+Creates a new InlineQueryResultVideo with specified id, video URL, thumbnail URL, title, text, and MIME type .
+Deletes a server using the client's delete method and returns the response header and any errors .
+The function FieldParams generates a space-separated string of all field names in lowercase .
+The function lockPath locks a specific path, incrementing the reference count if the path is already locked, or creating a new lock if it's not .
+The function Do sets the default background color override parameters and executes the command .
+The function checks if a ZFS pool volume exists in the dataset by comparing the dataset name with the output of a command .
+The function renames a project in the cluster transaction .
+The function findGeneration in keyIndex returns the generation that contains the revision number equal to or less than the input revision . If no such generation is found, it returns nil .
+The function checkStreamSupport verifies if a specific stream type is supported for a given semantic version .
+The function Next retrieves the next message from a PubSub subscription, decoding the JSON response and converting the sender's ID from bytes .
+SetNative sets the value of an Asset object to a new native asset .
+Summary: WithSamplingInterval sets the sampling interval in StartSamplingParams .
+The function NewRealRelay creates a new relay with specified services, sets up a channel, and starts listening on it .
+The function VerticalFlip inverts the y-coordinates of a path, effectively flipping it vertically .
+The Remove function in planService deletes a plan with a given name from storage .
+The function SlicePtr returns a region with a pointer type if the original region type is a slice .
+The function Do executes the command to set show scroll bottleneck rectangles parameters in a given context .
+The function EqualsElement checks if the selected element is equal to another element, returning a boolean value and any error encountered .
+The function GetServerResources retrieves server resources if the resources extension is available in the ProtocolLXD .
+The function NewExponentialFullJitter creates a new Backoff with exponential full jitter starting at a specified time and with a set limit .
+The function WithTTL sets the session option's TTL if the provided TTL is greater than zero .
+The function RemoveLatency removes latency from the default network interfaces .
+The function MemoryInUse returns the memory used by the NodeTable, calculated as the product of the approximate item size and the sum of the counts of fast and slow hash tables .
+The MiddlewareFunc in AccessLogApacheMiddleware sets default logger and format if not provided, calls the handler, and logs the request using the specified format .
+The function GetStateCmd creates a new command to get the state of the enterprise, handling errors and printing the state and expiry information .
+The function containerMetadataTemplatesGet retrieves the metadata templates of a specified container in a given project, handling requests targeted to a container on a different node if necessary .
+The function FindExternalRepo locates the external repository in the Bazel directory layout based on the provided repository root and name .
+The function FindMachine parses a file to locate and return a specific machine by its name .
+The function retrieves the path step at the specified index from the path, returning an empty path step if the index is invalid .
+The function getStage retrieves the current stage, provides a function to advance to the next stage, and a function to reset the environment, by manipulating environment variables and using SHA1 for verification .
+The function Set assigns a value to a specific key for the current goroutine in a thread-safe manner .
+The function EnvForType sets environment variables based on the type of job in the ProwJobType .
+The function NewGetCommand creates a new CLI command with specific flags and an action .
+The function 'FromRequest' retrieves the client's IP address from the HTTP request, considering various headers and the remote address .
+The function WithPlatform sets the platform for UserAgentOverride parameters .
+The function openWAL in raftNode opens a Write-Ahead Log (WAL) or creates one if it doesn't exist, using a given snapshot .
+The function creates a new outgoing document to resend via the Telegram Bot API using the provided recipient and file ID .
+Invoke fatal function if the test value is true
+ParseConfig reads and parses the configuration file, returning a list of resources .
+The function newLog creates a new raftLog with no size limit using the provided storage and logger .
+AddUint64 adds a value to a uint64 source either locally or atomically based on the isLocal flag .
+The function WithURL sets the URL in the ContinueRequestParams structure .
+The function String converts an xdr .Int64 value to a string with a precision of 7 decimal places .
+The function RegisterLeaseHandler registers a lease handler client with a given context, server multiplexer, and gRPC client connection .
+The function 'activatedListeners' categorizes systemd listeners into local and network types, and applies TLS to network listeners using a provided certificate .
+The function UntrackCacheStorageForOriginParams .Do executes the command to stop tracking cache storage for a specific origin .
+Starts a server with given data center ID and server ID, returning HTTP header and any error .

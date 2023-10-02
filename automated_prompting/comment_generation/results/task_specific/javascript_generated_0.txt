@@ -1,0 +1,329 @@
+Applies a given function to each item of an array asynchronously or synchronously based on the 'isAsync' flag .
+Maps an array of record objects into client ids and asserts the record type before adding to the relationship .
+StepGroup - Creates a UI step group with specified properties and content
+Validates placeholders in translations and reports any discrepancies .
+Formats text into a column with specified width and offsets .
+Extracts the URL fragment from the current location, either from '_location' or 'location' property .
+Configures template and constants data, and generates module paths for RequireJS .
+Set default values to an object and handle errors if non-object values are provided .
+Generates code for a constructor function, handling different initialization methods and replacing variable macros in property assigners .
+Register event name and add it to the events array with its parent contract .
+Manage child view rendering and event triggering in a Marionette collection view
+Sets up the router, registers views, and handles the initial URL for the Ember application .
+Compares two mappings based on their generated positions, source, original positions, and names .
+Initializes context and grunt, and merges task-specific or target-specific options with default options .
+Creates a 4x4 matrix from an array or copies from another matrix .
+Create a proxy for a model to manage its properties and attributes .
+Compiles an Abstract Syntax Tree (AST) into a list of matcher functions .
+The code finalizes the module if it's initialized, stopping sub-modules and running finalizers before resetting initializers and finalizers .
+Validates if the provided input is a function .
+Compiles Sass code to CSS with a custom importer for handling module imports .
+Fire an event when an item is tapped, and navigate to the node or leaf node based on its type .
+The function 'acceptKey' processes a specific node property, and if in mutating mode, it checks the validity of the node type and throws an error for unexpected types .
+Iterates over events and binds them to a target entity based on provided bindings .
+Wrap a command with error handling and optional Unix compatibility adjustments .
+Checks if the specified directory is empty, returns true if empty and false otherwise .
+Handles timeout for asynchronous tasks and logs relevant information
+Clear the view template cache based on the view's meta data and template type .
+Checks if a record with a specific id exists in the type map for a given model type
+Mark a plugin as active for a player
+Creates a Service with specified display name, UUID, and subtype, and sets up characteristics .
+Combines option and data arrays for a given property .
+Renders a group of cards with specified properties and content
+Invokes a callback function with provided arguments in a guarded context to handle potential errors .
+Convert pattern group to task with base, positive, negative, and dynamic properties
+The function `stepDecelAnim` manages the deceleration animation step, adjusting target position and velocity based on boundaries and friction, and optionally applying bounce effects .
+Creates a list of records from storage based on provided filters and pagination parameters
+Loads images from provided sources and returns a promise that resolves when all images are loaded .
+Normalizes the ISO 8601 time format considering the timezone offset .
+Starts watching directories in the list up to the maximum limit, and notifies when there are changes in the files .
+Determines preferred encodings based on accept parameter and provided encodings list
+Spreads fragments across selections based on their type and kind .
+The function 'printTasks' filters, sorts, and formats the task list, then returns it as a string with usage instructions and task comments .
+Copies a new file, throwing an error if the target file already exists .
+Generates an ID for a record using the specified adapter type
+This function formats a URI based on the provided configuration .
+Adds a new file with its dependencies to a list, checking for dependency cycles .
+Establishes a connection to a MongoDB database at a specified URL .
+Creates an Event object with a name and optional attributes .
+Updates properties of a DOM element based on the tag and properties, and handles special cases for input, textarea, and select tags .
+Spawn a child process, capture its stdout and stderr if specified, and resolve or reject a promise based on the exit code .
+Creates a shallow copy of an object, returning a new object if no input is provided .
+Execute a worker function that processes an input file using PhantomJS and handles errors and exit events .
+Dispatches a pagination action with a specified direction for a table component .
+Create a list of linked class names
+Collects scenarios and templates from a parent element's children in AngularJS .
+Retrieves annotation candidates from a module expression node .
+Parses a URL and returns server options including host and port .
+Inspect block statements for correct indentation and report any inconsistencies .
+Assigns a unique ID to a property name in the object .
+Set the current alignment info to null and hide the component if it's not hidden, with optional animation .
+The function 'tablature' generates a formatted table with specified keys, data, headings, replacements, and center alignments .
+StatisticGroup - Creates a UI group with specified properties and content, or maps items to Statistic components if no content is provided
+Set metadata for a specific service using provided payload and meta information
+Parse command line arguments and apply a function to each argument
+Executes the appropriate callback function based on the status of the event in the given transaction .
+Detects if takeout is present in selectors and assigns corresponding filename to properties .
+The code builds a gulp task by reading files, parsing JSDoc comments, and reflecting task properties .
+Processes nodes in a document scope, matching and ordering them based on a defined template, and replacing matched nodes with markers .
+Filters an array by keeping elements that satisfy a condition .
+Initializes a graph with nodes and grid from given input and options
+Filters and returns bundle names based on provided filter function .
+This function validates and normalizes a full name, then removes it from various caches and registries .
+Summary: Authorize request based on schema and access identity, and wrap the result with authentication status .
+Initialize data stream, compile configuration, check module existence, and build if no fatal errors are found .
+The function 'stdout' logs a parsed message to the console and optionally appends it to a specified file .
+Update payload with embedded data and return the updated payload for a given store and type .
+Checks if the event type is a non-empty string or a non-empty array .
+Logs and links system with user, path, and current working directory information .
+Removes specified filters from the current filters list .
+Initiates a background download from a source to a specified storage file .
+Function sets exception status and status text if response is an object .
+Retrieves the data type name associated with a given code in the item object .
+Start capturing stream data with options and execution parameters, and generate a unique ID for each stream .
+Validates protocol options and checks if the provided maximum version is supported .
+Formats the input value based on the specified formatter type and encoding requirements .
+Create a list of text track cues with length property
+The function 'assert' throws an AssertionError if the provided condition 't' is not met .
+Summary: Retrieve transaction if the getTid option is available .
+Toggle the refinement of a facet based on its type (hierarchical, conjunctive, or disjunctive) .
+Calculates and returns the progress of file upload, considering both single and multiple chunks .
+This function applies a set of mixins to a given instance .
+Replaces a set of elements in the root element with a new node, and cleans up the removed elements .
+Generates signature headers for date, digest, and authorization using RSA-SHA256 algorithm .
+Set the current time of a media node and return it, or return an error message if unsuccessful .
+Decodes a URL-encoded string into a regular string .
+The code creates an application, merges it with existing application and event emitter, and initializes it .
+Manage parallel execution of operations with a specified concurrency level and handle client connection and shutdown .
+Toggles visibility of a specific side menu based on its current state
+Creates a hierarchical structure from a list of classes, where each class is linked to its parent and children .
+Retrieves the system bucket from the configuration, prioritizing the internal bucket .
+Completes a purchase transaction, requiring success and failure callbacks, and communicates the result .
+Split and categorize filter fields for optimization and compilation .
+Creates a debug function with enabled and disabled versions, formatting arguments and applying transformations based on environment settings .
+Updates the record's ID and asserts it matches the old ID, then maps the record to its new ID in the type map .
+Replaces class declarations with function or assigns expressions based on options provided .
+Creates a browserify transform with specified options and an error-throwing updater .
+Adds a given class name to an object if it doesn't already have it .
+The function 'simulacra' binds an object to a DOM node, checks for required features, validates inputs, and processes nodes . If 'matchNode' is provided, it rehydrates the node .
+Parses an array initializer, handling comprehension blocks and filters, and returns an array expression or comprehension expression .
+Initialize RPC class with contact and options
+Converts an array to a map using a provided key-making function .
+Summary: Sets or retrieves a property value for an element .
+Creates an Item object with key, value, publisher, and timestamp, with validations for key, publisher, and timestamp .
+Deducts specified cost from the quantity of craftable items .
+Summary: Create a GridColumn component with various props and apply corresponding classes to it .
+Initializes component directories by filtering filenames that match a specific pattern from the 'src/components' directory .
+Creates a comment avatar component with specified properties and image .
+The function finds the first index of a specific array within another array .
+Retrieves the state node from an instance, throwing an error if the instance is invalid .
+Normalize and store class weights in the weights and weights_sum objects .
+Initializes a new Toxy instance with default or provided options and sets up middleware .
+Checks if the given code is unquoted, not a space, quote, or terminator
+Validates a file path synchronously and logs an error message if the path is not valid .
+Initializes an instance with a non-configurable, non-enumerable, and non-writable _impl property set to a new EJDBImpl object .
+Configures and creates a Redux store with applied middlewares and emits related events .
+Evaluates options by executing if they are a function and returns the result .
+Checks if a node is an independent type reference by iterating through its type arguments .
+Creates a Delegate object that manages event listeners for specified elements in the DOM .
+Serializes model or collection data based on the presence of model or collection in the context .
+Open a popup window with POST method form submission
+Checks if obj is either a buffer or an arraybuffer .
+Resolve and return the configuration of a specified plugin .
+Checks if an object is an instance of a certain value or if it matches a specific type .
+Iterates over map entries until a condition specified by the 'receive' function is met .
+Inspects an identifier and removes it from variable declarations if it's not a variable declarator .
+Decrements a property value by a specified amount in an Ember object .
+Finds and returns an item from a list that matches the provided filter criteria
+Finds the next non-whitespace and non-punctuation sibling node after a given index in a parent node's children .
+Trigger specific event and handle associated data
+Initialize draggable element with configuration, setting up listeners and constraints .
+Executes 'insert' operation on migration table with current date .
+Resets the store data and marks it as changed .
+Checks if any pattern matches the entry
+Reads and parses header section of input, extracts dictionary attributes, and configures encryption settings .
+Sends an email to the user notifying them that their password has been changed .
+Generates new latitude and longitude based on distance and direction .
+Parses a language string and returns an object with prefix, suffix, quality factor, index, and full language string .
+Removes specified buttons from the toolbar
+Ensures existence of each path element, replaces regex elements with strings, and returns the maximized path .
+Set a parameter and its value, or modify if it already exists .
+Validates socket options for read timeout and coalescing threshold
+Reads a directory path, checks if it's valid, and returns its structure as an object .
+Determine the pivot point in an array for sorting purposes .
+Configure network mocking for different URLs with specific headers and responses .
+This function serializes a record using the appropriate serializer from the record's store .
+Removes a specified output file using the csFactory method and signals completion when done .
+Rotates a matrix around a specified axis by a given angle
+The function 'serializeVerbatim' converts an object into a JSON string, while preserving any functions within the object by storing them in an array and replacing them with indices in the string .
+Disconnects Ember .Binding from an object, stopping notifications and updates for changes .
+Traverse through key parts in a hash and return the value of the last key part if it exists .
+Retrieve ID from payload or return empty string if not found .
+Creates a password hash and salt for an object, removing the original password .
+Modifies the configuration module index by inserting a new environment and adding it to the module exports .
+Read varint values from a Pbf object and add them to an array .
+Displays final help instructions for using the NativeScript application .
+Manage task queue based on the type, either LIFO or default, and ensure the running tasks are within the limit .
+Create and return a simulator with specific capabilities and platform
+The code registers a new provider in the providerMap, checks for duplicates, and handles nested providers .
+Applies configuration settings to the instance and initializes it with the provided configuration .
+The function follows a reference node, searching for its declaration in the scope hierarchy and returning the corresponding function or initialization value .
+Create a FormGroup component with various properties and render it with children elements .
+The function appends normalized content to a specified element .
+Finds and returns the container definition ID and types from given targets based on system and revision identifiers .
+Serializes record into hash and sends it as a PUT request via AJAX .
+Normalize and filter valid directories from given arguments
+Reads and returns text from a defined block and keyinfo offset in the input .
+Generates a new action object by assigning provided keys and values to the original action .
+Handles all given promises and returns their results whether they are fulfilled or rejected .
+Formats the given URL object or string into a standardized URL format .
+Retrieve the last modification time of a specific path if it exists .
+Initializes GNTP with type and options, setting default values for host, port, request, resources, attempts, and maxAttempts .
+Sorts keys into a SQL WHERE condition based on the provided sorting table and dialect .
+The code sets up a collection for a relational model, binds event listeners, and handles potential warnings .
+Retrieve the position of a node in Internet Explorer .
+Executes a child process method and returns a promise with the process details or an error .
+Retrieve the value of a specific tag from the comment object .
+This function processes a loaded texture, setting its parameters and binding it to a 2D texture object in WebGL .
+Constructs a new FeedbackInfo object from the given JSON, or returns the instance if it already exists .
+Adds actions to a list, supporting different input types such as string, array, or object .
+Initialize SvmLinear with options, set default values, and check if 'liblinear_train' executable is installed .
+The function DropdownMenu renders a dropdown menu with customizable properties like direction, visibility, scrolling, and content .
+Slice a portion of a file then execute a function with the sliced data and additional arguments .
+Lint and potentially auto-fix source code based on user configuration
+Prefixes substrings in a set of strings with a given prefix
+Clears temporary data, logs errors, and aborts the process .
+Converts hexadecimal color code to RGB format
+Releases media object and handles potential errors
+Reset project file if it exists
+Generates and outputs a CSS file from given files with optional banner using gulp .
+Creates a new object by copying properties from the original object, excluding the specified property .
+Determines the target instance for an input event, considering different top level types and active elements .
+Retrieves the parent directory or file of a given entry and calls the success callback, or logs an error if no success callback is defined .
+Creates and inserts filters into the current filters collection based on the provided index and filters array .
+Initialize HooksRunner with a project root, throwing an error if it's not a Cordova project .
+The function resolves the executable path for JetBrains' WebStorm in a specified directory .
+Generates a UUID using current date and random values .
+Inspect program for unused variable declarations and report them .
+Merge source property into destination object, creating it if it doesn't exist .
+Encodes routing key based on user or metadata information
+Determines the priority of a specified language based on acceptance criteria and index .
+Compares two dates by breaking them into pieces and checking each piece sequentially
+The function 'supplyMissingDefault' assigns default values to undefined properties in the 'options' object .
+Writes configuration to a specified path using a given adapter instance .
+Processes the server response, handles exceptions, and triggers the callback function after the request .
+Log module details and handle inconsistencies in source or version .
+Renders card content based on provided properties, with conditional rendering for children, content, header, meta, and description .
+Initializes a Route with specified method, path, callback function, and options .
+Calls a set of functions stored in an array based on the specified kind .
+Converts node position to string format in the source file .
+Generates tasks from patterns, considering static and dynamic patterns separately .
+Save configuration data to a file and log the action if verbose mode is enabled
+Adds a CSV loader with specific options to the context using the addLoader function .
+Groups gettext items by message ID and context, and updates plural IDs if missing .
+Writes data to a specified destination and creates directories if necessary .
+Logs error messages to the console or exports them if export error is available .
+Evaluate helper function with context, normalized properties, and options, and apply the function with the generated arguments .
+Pauses the media file with the given id and updates its status, returns an error message if the operation fails .
+Summary: Copies a cache entry and its attributes .
+Enables event listener for start event and sets disabled property to false .
+Insert a node before a reference node in the tree, with options to suppress events .
+Determines the module type of the given code by parsing and analyzing its structure .
+Parses a string representing an IPv4 address and returns its equivalent in uint32 format .
+Creates a scrollable list with a pinned header, using the best translation method for the device .
+Parses a numeric literal from an Abstract Syntax Tree (AST), validates it, and adds it to the AST if valid .
+Handle errors in captcha validation and submit captcha if no errors are found
+Finds the index of a specific item in a sorted array using a sorting function, considering whether the item is already in the array .
+Adds emails to the address book identified by the given id
+Verifies a token, decodes it if invalid, checks for expiration, and validates it against custom options .
+Counts the number of quotation marks in a given string .
+Extracts validation messages from child elements in the original element .
+Builds a path string from the item stack array
+Lists campaigns with optional limit and offset, and sends a GET request .
+Generates an array of evenly spaced ticks between two domain values, ensuring inclusion of zero if domain crosses it .
+Sets the scan limit for a specific device if the address and limit are within valid ranges .
+Creates a hash map from an array using feature names as keys and their corresponding indices as values .
+Creates and sorts hotspots if not already created, then renders them .
+Check if a given attribute has changed or if any of its dependencies have changed, return true if so, otherwise check if the attribute itself has changed .
+Manages the joining process of a socket to a multiaddress, including validation and crypto challenge if required .
+Validate properties of an object using specified validators and handle unknown or internal properties .
+This function applies given arguments to a specified function in the context of a provided object .
+Reveals content based on visibility status and returns either children or content elements .
+Logs request method, decoded URL, and body if the URL starts with /r
+Render breadcrumb divider with either icon, content, or children as per the provided props .
+Checks if the given value is a view of an ArrayBuffer
+Manages the upload queue, ensuring not too many uploads start simultaneously, and fires 'complete' when all uploads are done .
+Merges the source property into the destination property as an array .
+Summary: Defines a flow control function that manages execution of multiple asynchronous tasks, with features for rewinding, multiplexing, and setting timeouts .
+The function traverses and returns all child nodes of a root node, with an option for recursive traversal .
+Generates code for properties with custom getters and checks if property should be embedded .
+Reverts all removed changes in the repository state
+Creates a new instance of NameFormInfo from the provided JSON, or returns the instance if it already exists .
+Finds the largest file in a directory, optionally recursing into subfolders, and optionally provides a preview of the file's content .
+The function 'emitFiles' generates helper functions for class extension, decoration, metadata, parameters, and async-await handling, and sets up compiler options for JavaScript file emission .
+Merges data from one object into another, considering nested objects .
+Normalize and update record relationships, then commit changes to the adapter .
+Retrieve specific range value from an array based on function name and indices .
+Initializes object with options, sets default values if not provided, and triggers events on update, completion, or error .
+Initializes InfluxDB with given options, sets defaults, and starts a flush timeout .
+Builds core theme and plugins, formats them into SCSS, and returns the output .
+Determines the effective argument error node based on the node kind and argument index .
+Logs creation events either by storing them in an array or displaying them in the console .
+Extracts a string literal from a given input, handling unexpected tokens .
+Generates and returns a list of behaviors and nested behaviors for a given view .
+Performs Google login using Android device credentials and handles authentication tokens .
+Generates a sparse graph using the Erdos-Renyi model with given options .
+Prepare and encode parameters for URL query string
+Function to find and return a file with a specific unique identifier .
+Create a new TouchInfo object based on new touch coordinates and previous touches, calculating values like velocity, direction, and angle .
+Finds and returns the enclosing block scope container of a given node in the function 'getEnclosingBlockScopeContainer' .
+Retrieves a specific revision of a system definition from a git repository
+Parses a query string and returns an object with key-value pairs .
+Recovers public key from a given elliptic curve, signature, and recovery parameter .
+Registers a handler for a specific language type in the store .
+Initializes the view, creates a HTML wrapper, injects CSS, and adds event listeners .
+The function GifCli reads a GIF file, splits it into frames, converts each frame to ASCII, and returns the ASCII frames .
+Returns the value of a specific response header, or null if not found or error occurred .
+Executes a function asynchronously until a sample size is reached, then finishes the child process .
+Check if a node is a container of another node .
+Initializes metadata with options and control connection, and sets up schema parser and prepared queries .
+The FunctionCall class extends EventEmitter, checks the types of provided arguments, and initializes properties related to function execution and retry logic .
+Initializes an error handler that handles HTTP transaction errors and maps them to a serializable response .
+Iterates over an object or array and executes a callback function on each element .
+Generates object with property path and associated class names from a given path string .
+Registers a template by name and stores it in cache for later use .
+Generates dependency file paths based on the provided module paths and file mask .
+Parse a simple string from the buffer until a carriage return and line feed are encountered .
+Checks type parameters for duplicates and produces diagnostics if enabled .
+Initializes an object with agent, defaults, logger, shared cookie jar, and logCurl properties from the provided options .
+Bind events to collection after composite view is rendered .
+The code binds a function to a specific object, allowing for arguments to be passed .
+Generates a random delay between min and max, rounded to specified precision .
+Create and insert sorters into the current sorters collection based on the provided configuration .
+The function compares expected and actual classes, increments counters for true positives, false positives, and false negatives, and returns an explanation of the results .
+Sorts images based on the order of the source array and overrides the original image array with the sorted one .
+Finds and returns the option value in a select element that is closest to a given value .
+Retrieves and marks deployed revisions for a specific system ID .
+The Characteristic function initializes a characteristic with a display name, UUID, and optional properties .
+Constructs a GrelRequest object with authorization headers and optional content .
+Processes raw request, sets headers and cookies, streams response content, and handles gzip encoding .
+Bind a function to an event type and unbind it after first execution .
+The function checks if a descriptor is compatible with a current descriptor considering extensibility, descriptor type, and property values .
+Copy data from remote client and send it as a response with appropriate content type .
+Set individual and multiple headers for a constructor object .
+Inserts elements from 'insert' array into 'array' at specified index 'at'
+Aborts the file reading process if it's not empty or done, and triggers corresponding events .
+Creates a new button with a unique id in the toolbar
+Finds all projects, sanitizes them, adds creation date and associated users, and returns the list .
+Executes a function with arguments, using either exports or window .flow as the context .
+Manages and returns a promise based on the running tasks limit .
+Sends a message to a specified entity, validates the message, and handles errors if the entity or message details are missing .
+The function 'updateTableUI' updates the user interface of a table by removing previous event listeners, emptying the table, and then populating it with new data from 'data .nodes' . It also updates the sort order and triggers an update event .
+Modifies options if they exist and triggers an event when an option is changed
+The function 'animate' controls the animation process, checking user interactions, key presses, auto rotation settings, and rendering status to decide whether to continue the animation or finish it .
+Serializes a record into JSON, including its attributes and relationships, with an option to include the record's ID .
+Collect and update session data including IP, location, and system information .
+Generates a list of all types in the Ember namespaces, excluding Ember applications .
+Inspect and validate the order of functions and constructors in a contract .
+Creates an asynchronous non-iterator function that executes a given function within a fiber and returns a promise, thunk, result, or nothing based on the configuration .
+The function parses property chains in a given expression, allowing recursion and resetting indices for efficiency .
