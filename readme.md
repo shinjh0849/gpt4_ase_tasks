@@ -18,8 +18,11 @@ The information includes:
 4. Prompt category the authors categorized.
 5. Raw chat logs of surveyors' queries with ChatGPT.
 
+
 1 is in survey_info/task_samples.xlsx
+
 2-4 are in survey_info/Survey Responses.xlsx
+
 5 is in survey_info/raw chat logs
 
 
@@ -31,15 +34,6 @@ Datasets can be easily obtained from GitHub and Hugging Face. Here are the links
 - Code Generation (MBPP) in [Github](https://github.com/google-research/google-research/tree/master/mbpp) and in [HuggingFace](https://huggingface.co/datasets/mbpp).
 - Code Translation (CT in CodeXGLUE) in [GitHub](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/code-to-code-trans) and [HuggingFace](https://huggingface.co/datasets/code_x_glue_cc_code_to_code_trans).
 
-
-
-### If you want to run the minig script:
-
-```
-$ cd dataset/mining_atlas
-$ python get_my_atlas.py
-$ python utils.py
-```
 
 ## 2. How to run our scripts
 ### 2.1 Comment Generation
