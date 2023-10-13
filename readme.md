@@ -65,7 +65,7 @@ $ cd automated_prompting/code_generattion/[humaneval|mbpp]
 3. run the choice of prompting techinque of Jupyter notebooks.
 
 ```
-$ cde automated_prompting/code_translation/
+$ cd automated_prompting/code_translation/
 ```
 'run all' by opening the jupyter notebooks.
 
